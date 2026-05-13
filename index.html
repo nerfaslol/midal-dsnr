@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#0a0a0a" />
 <title>TO MIDÃO DSNR — arquivo midal</title>
 <meta name="description" content="Arquivo oficial do clã MIDAS. Membros, músicas e glossário midal." />
-<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css?v=4" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -32,7 +32,15 @@
   <section id="membros" class="panel active">
     <div class="panel-head">
       <h2>membros midais</h2>
-      <p class="hint">clique no card pra ver tudo · apelidos · termos cunhados · memes</p>
+      <p class="hint">clique no card pra ver tudo · apelidos · termos cunhados · discografia · memes</p>
+    </div>
+    <div class="filter-chips" id="member-filters">
+      <button class="filter-chip active" data-filter="todos">todos</button>
+      <button class="filter-chip" data-filter="ativo">ativos</button>
+      <button class="filter-chip" data-filter="admin">admins</button>
+      <button class="filter-chip" data-filter="lendario">lendários</button>
+      <button class="filter-chip" data-filter="ex-membro">ex-membros</button>
+      <button class="filter-chip" data-filter="discog">com discografia</button>
     </div>
     <div class="members-grid" id="members-grid"></div>
   </section>
@@ -44,8 +52,12 @@
     </div>
     <div class="music-search">
       <input type="text" id="music-search" placeholder="filtrar por título ou letra..." />
+      <div class="music-group-toggle">
+        <button class="group-btn active" data-group="all">tudo</button>
+        <button class="group-btn" data-group="artist">por artista</button>
+      </div>
     </div>
-    <ul class="music-list" id="music-list"></ul>
+    <div id="music-list-wrap"></div>
   </section>
 
   <section id="glossario" class="panel">
@@ -81,9 +93,32 @@
         <div class="modal-aliases" id="modal-aliases"></div>
       </div>
     </div>
+    <div class="modal-mood" id="modal-mood-section">
+      <span class="mood-dot"></span>
+      <span id="modal-mood-text"></span>
+    </div>
     <div class="modal-section" id="modal-bio-section">
       <h3>perfil midal</h3>
       <p id="modal-bio"></p>
+    </div>
+    <div class="modal-section" id="modal-topics-section">
+      <h3>tópicos recentes</h3>
+      <div class="chips" id="modal-topics"></div>
+    </div>
+    <div class="modal-section" id="modal-events-section">
+      <h3>eventos recentes</h3>
+      <ul class="event-list" id="modal-events"></ul>
+    </div>
+    <div class="modal-section discog" id="modal-discog-section">
+      <h3>discografia midal</h3>
+      <div id="modal-discog-artist-wrap">
+        <p class="discog-label">como artista</p>
+        <ul class="modal-songs" id="modal-discog-artist"></ul>
+      </div>
+      <div id="modal-discog-theme-wrap">
+        <p class="discog-label">tematizado</p>
+        <ul class="modal-songs" id="modal-discog-theme"></ul>
+      </div>
     </div>
     <div class="modal-section" id="modal-terms-section">
       <h3>termos & gírias associadas</h3>
@@ -96,7 +131,7 @@
   </article>
 </div>
 
-<!-- GLOSS MODAL (quando clicar num chip) -->
+<!-- GLOSS MODAL -->
 <div class="modal-backdrop" id="gloss-backdrop" aria-hidden="true">
   <article class="modal small" id="gloss-modal" role="dialog" aria-modal="true">
     <button class="modal-close" id="gloss-close" aria-label="fechar">✕</button>
@@ -111,6 +146,15 @@
   <p class="micro">dados extraídos do histórico curado. ban DSNR a quem espalhar info privada.</p>
 </footer>
 
+<!-- LYRICS PANEL -->
+<div class="lyrics-panel" id="lyrics-panel" aria-hidden="true">
+  <div class="lyrics-head">
+    <span class="lyrics-title" id="lyrics-title">letra</span>
+    <button class="lyrics-close" id="lyrics-close" aria-label="fechar letra">✕</button>
+  </div>
+  <pre class="lyrics-body" id="lyrics-body"></pre>
+</div>
+
 <!-- STICKY PLAYER -->
 <div class="player-bar" id="player-bar">
   <div class="pb-art">
@@ -121,9 +165,11 @@
     <p class="pb-title" id="pb-title">selecione uma faixa pra começar</p>
   </div>
   <div class="pb-controls">
+    <button class="pb-btn pb-mode" id="pb-shuffle" aria-label="shuffle" title="shuffle">🔀</button>
     <button class="pb-btn" id="pb-prev" aria-label="anterior" title="anterior">⏮</button>
     <button class="pb-btn pb-play" id="pb-play" aria-label="tocar" title="tocar/pausar">▶</button>
     <button class="pb-btn" id="pb-next" aria-label="próxima" title="próxima">⏭</button>
+    <button class="pb-btn pb-mode" id="pb-repeat" aria-label="repeat" title="repeat">🔁</button>
   </div>
   <div class="pb-progress-wrap">
     <span class="pb-time" id="pb-cur">0:00</span>
@@ -132,6 +178,7 @@
     </div>
     <span class="pb-time" id="pb-dur">0:00</span>
   </div>
+  <button class="pb-btn pb-lyrics" id="pb-lyrics" aria-label="ver letra" title="ver letra" disabled>letra</button>
   <div class="pb-volume">
     <span class="pb-vol-icon" id="pb-vol-icon">🔊</span>
     <input type="range" id="pb-vol" min="0" max="100" value="80" aria-label="volume" />
@@ -139,6 +186,6 @@
   <audio id="audio" preload="metadata"></audio>
 </div>
 
-<script src="app.js"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

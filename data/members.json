@@ -14,6 +14,7 @@
       "photo": "img/members/nerfin.jpg",
       "confirmed": true,
       "status": "operador",
+      "isAdmin": false,
       "glossarioRelated": [
         "nebixal",
         "doguxo",
@@ -32,7 +33,9 @@
       "memesRelated": [
         "kart",
         "palhacinho inho saga"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Lucca",
@@ -46,6 +49,21 @@
       "photo": "img/members/Lucca.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "irritado/frustrado com nerfin",
+      "recentTopics": [
+        "Dragon Ball",
+        "desenhos",
+        "Mafero",
+        "Cavaleiro do Zodiaco",
+        "Monstros S.A competição",
+        "nerfin"
+      ],
+      "memorableEvents": [
+        "Lucca não consegue acompanhar as mensagens atrasadas",
+        "pergunta sobre Curralo",
+        "Lucca mudou planos de levar tio ao hospital para ir ao curralo"
+      ],
       "glossarioRelated": [
         "fragar",
         "Lekin",
@@ -59,6 +77,10 @@
         "kart",
         "bot numero errado",
         "ifm iodo frodo meny"
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": [
+        "MIDIASs (2).mp3"
       ]
     },
     {
@@ -74,6 +96,21 @@
       "photo": "img/members/scnogaY.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": true,
+      "mood": "animado para encontrar Karol",
+      "recentTopics": [
+        "Karol",
+        "reza do leozin",
+        "identidade disnara/zzw",
+        "visão pro magé",
+        "trava zap",
+        "Meta IA"
+      ],
+      "memorableEvents": [
+        "Yago pediu ao bot 15 curiosidades sobre ele (Gonquio)",
+        "Yago Nunes faz citação ou ameaça a 'Joel'",
+        "feedback do grupo sobre o bot: pedido para ajustar o bot"
+      ],
       "glossarioRelated": [
         "disparos",
         "Monster",
@@ -90,6 +127,16 @@
         "kart",
         "ficha tecnica membro",
         "karol mulher do curralo"
+      ],
+      "discografiaArtist": [
+        "Gonquio - BAC BAC BAC.mp3",
+        "GONQUIO - CADE O PATACO_.mp3",
+        "GONQUIO - DEVORANO.mp3"
+      ],
+      "discografiaTheme": [
+        "CHT _ FAMÍLIA PRÊMIOS.mp3",
+        "MIDIASs (2).mp3",
+        "ONIGRAT NEGOCIAÇÕES.mp3"
       ]
     },
     {
@@ -104,6 +151,18 @@
       "photo": "img/members/Gabriel_Castro.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "brincando com ameaça",
+      "recentTopics": [
+        "mogged",
+        "League of Legends",
+        "codico morse"
+      ],
+      "memorableEvents": [
+        "called bot 'burro'",
+        "Gabriel inferiu que o bot só procura música pela letra",
+        "Gabriel instruiu o bot a procurar músicas também pelo nome do arquivo"
+      ],
       "glossarioRelated": [
         "nebixal",
         "moiadin",
@@ -117,7 +176,19 @@
       "memesRelated": [
         "kart",
         "gamba ou manganga"
-      ]
+      ],
+      "discografiaArtist": [
+        "Pixas - Cagando na sacola.mp3",
+        "Pixas - Chuveirinho.mp3",
+        "PIXAS - Desumildância.mp3",
+        "Pixas - Forrest Gump BR.mp3",
+        "Pixas - gamba ou manganga.mp3",
+        "PIXAS - Joel Pidao.mp3",
+        "Pixas - Mc Curralo.mp3",
+        "Pixas - Oniubab.mp3",
+        "Pixas - União X-biiiiix.mp3"
+      ],
+      "discografiaTheme": []
     },
     {
       "key": "Aquiles Teodoro",
@@ -130,12 +201,22 @@
       "photo": "img/members/Aquiles_Teodoro.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "exasperado",
+      "recentTopics": [
+        "Rosinha sleeping"
+      ],
+      "memorableEvents": [
+        "Aquiles warns against using @all"
+      ],
       "glossarioRelated": [
         "revolução midal"
       ],
       "memesRelated": [
         "aquiles idas e vindas"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "olatÍ",
@@ -152,6 +233,18 @@
       "photo": "img/members/olat_.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": true,
+      "mood": "chateado com xenofobia",
+      "recentTopics": [
+        "Bosmij IA, GPT",
+        "vídeo",
+        "descrição estética feminina",
+        "xenofobia"
+      ],
+      "memorableEvents": [
+        "Italo posta mensagem de conteúdo explícito",
+        "Italo expressa frustração com Midas afetando produtividade"
+      ],
       "glossarioRelated": [
         "DSNR",
         "Coidei",
@@ -173,6 +266,13 @@
         "maquina de averiguar resenha",
         "ifm iodo frodo meny",
         "palhacinho inho saga"
+      ],
+      "discografiaArtist": [
+        "xoris.mp3"
+      ],
+      "discografiaTheme": [
+        "CHT _ SIROBADA DE BANDIDO.mp3",
+        "LIL ROSE - Xoris Xera.mp3"
       ]
     },
     {
@@ -189,6 +289,12 @@
       "photo": "img/members/Henrique.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [
+        "low cortisol",
+        "áudio com voz de esquilos no curralo"
+      ],
+      "memorableEvents": [],
       "glossarioRelated": [
         "pitico",
         "batendo biela",
@@ -197,7 +303,9 @@
       ],
       "memesRelated": [
         "terraco curralal"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Sequelado",
@@ -214,10 +322,36 @@
       "photo": "img/members/Sequelado.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [
+        "curralo",
+        "moiadin maciin de pós treino",
+        "Kung Fu Panda",
+        "cavera team",
+        "terraço do Curralo"
+      ],
+      "tics": [
+        {
+          "phrase": "narrativa absurda em CAPS",
+          "freq": 0.5
+        },
+        {
+          "phrase": "🤬",
+          "freq": 0.4
+        }
+      ],
+      "memorableEvents": [
+        "Saga mitológica do nome do olatÍ",
+        "possível encontro/evento no curralo agendado para 19:00"
+      ],
       "glossarioRelated": [
         "cavera team"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": [
+        "MIDIASs (2).mp3"
+      ]
     },
     {
       "key": "Gustavo Cinza",
@@ -228,10 +362,33 @@
       "photo": null,
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "preocupado/frustrado com Boneca",
+      "recentTopics": [
+        "personagens femininas 'bandidas'",
+        "desenhos da infância",
+        "identifying Nathan or Joel",
+        "Instagram reel sobre Dona Antônia",
+        "Blogueirinho x espino",
+        "Roger Rabbit / Jessica Rabbit"
+      ],
+      "tics": [
+        {
+          "phrase": "Coidei 👶🏻",
+          "freq": 0.3
+        }
+      ],
+      "memorableEvents": [
+        "Imprevisto impediu de ajudar na janta",
+        "Gustavo usou nova gíria 'Mai dibereu que um diberoncio'",
+        "pedindo receita"
+      ],
       "glossarioRelated": [
         "Coidei"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "tiago",
@@ -245,10 +402,30 @@
       "photo": "img/members/tiago.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "provocador",
+      "recentTopics": [
+        "kung fu panda",
+        "Violet Parr / Os Incríveis",
+        "meme senhor incrivel",
+        "mt sexo pqp"
+      ],
+      "memorableEvents": [],
       "glossarioRelated": [
         "vissium"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [
+        "LIL ROSE - Enemas.mp3",
+        "LIL ROSE - Segredo Secreto.mp3",
+        "LIL ROSE - Uber Amaldiçoado.mp3",
+        "LIL ROSE - Xoris Xera.mp3",
+        "Rosinha - A volta por cima.mp3"
+      ],
+      "discografiaTheme": [
+        "CHT _ jacambiras.mp3",
+        "PIXAS - Desumildância.mp3"
+      ]
     },
     {
       "key": "Zé Pagão",
@@ -262,6 +439,14 @@
       "photo": null,
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [
+        "drogas/venda ilegal",
+        "00"
+      ],
+      "memorableEvents": [
+        "chateado por ter sido 'votado' em Bob Esponja e ameaça 'sapecar' alguém"
+      ],
       "glossarioRelated": [
         "pretoso",
         "tapreto",
@@ -270,7 +455,9 @@
         "bullius",
         "forgar"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Jord",
@@ -284,12 +471,20 @@
       "photo": null,
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [
+        "TFT",
+        "comentários cínicos"
+      ],
+      "memorableEvents": [],
       "glossarioRelated": [
         "revolução midal",
         "forgar",
         "averiguar resenha"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Filipe Souza",
@@ -303,6 +498,12 @@
       "photo": "img/members/Filipe_Souza.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "fazendo piada sugestiva",
+      "recentTopics": [
+        "animation (Steve Cutts)"
+      ],
+      "memorableEvents": [],
       "glossarioRelated": [
         "torar",
         "Karol",
@@ -315,6 +516,12 @@
         "kart",
         "terraco curralal",
         "karol mulher do curralo"
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": [
+        "canetinha.mp3",
+        "CHT _ Curralex.mp3",
+        "Pixas - Mc Curralo.mp3"
       ]
     },
     {
@@ -326,12 +533,17 @@
       "photo": "img/members/Pedroga.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [],
       "glossarioRelated": [
         "pretoso",
         "tapreto",
         "revolução midal"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Rato",
@@ -346,11 +558,25 @@
       "photo": "img/members/Rato.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "tonto é bão dms",
+      "recentTopics": [
+        "piscininha",
+        "curralal",
+        "jogo no curralal"
+      ],
+      "memorableEvents": [],
       "glossarioRelated": [
         "mamado",
         "noia"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": [
+        "GONQUIO - DEVORANO.mp3",
+        "pirridisib.mp3",
+        "reza do leozin.mp3"
+      ]
     },
     {
       "key": "João Pedro Melo",
@@ -364,6 +590,26 @@
       "photo": "img/members/Jo_o_Pedro_Melo.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "rindo muito e animado",
+      "recentTopics": [
+        "desenhos clássicos vs. modernos",
+        "inteligência artificial",
+        "desenhos bizarros",
+        "Cavaleiro do Zodiaco",
+        "00",
+        "votação/ranking"
+      ],
+      "tics": [
+        {
+          "phrase": "microcontos absurdos",
+          "freq": 0.6
+        }
+      ],
+      "memorableEvents": [
+        "tentando interagir com módulo de música do bot",
+        "Plano de ir a algum lugar"
+      ],
       "glossarioRelated": [
         "pretoso",
         "tapreto",
@@ -372,7 +618,9 @@
       ],
       "memesRelated": [
         "joel personagem ficticio"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Gustavo Santos",
@@ -387,13 +635,20 @@
       "photo": null,
       "confirmed": true,
       "status": "ex-membro",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [
+        "Confirmado como ex-membro do midas — apelidado 'boneca'/'black doll'. Amigo de todo mundo. Bot mencionou em 08/05/2026 que ele saiu"
+      ],
       "glossarioRelated": [
         "mamado"
       ],
       "memesRelated": [
         "kart",
         "aquiles idas e vindas"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Henrique Gontijo",
@@ -407,11 +662,58 @@
       "photo": "img/members/Henrique_Gontijo.jpg",
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "mood": "dramático/resignado sobre sofrimento",
+      "recentTopics": [
+        "pouca sombra"
+      ],
+      "tics": [
+        {
+          "phrase": "mensagens longas e reflexivas",
+          "freq": 0.7
+        },
+        {
+          "phrase": "pouco kkk",
+          "freq": 0.1
+        }
+      ],
+      "memorableEvents": [
+        "Joni Gontijo vai compartilhar um vídeo",
+        "offered to help with music list",
+        "Henrique Gontijo observou que o bot não achou música mesmo com nome certo"
+      ],
       "glossarioRelated": [
         "pitico",
         "batendo biela"
       ],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [
+        "CHT _ BAFORA LOLIS.mp3",
+        "CHT _ CEO KIBOCADA.mp3",
+        "CHT _ Curralex.mp3",
+        "CHT _ Dinheiro sujo.mp3",
+        "CHT _ FAMÍLIA PRÊMIOS.mp3",
+        "CHT _ HOTEL JB.mp3",
+        "CHT _ jacambiras.mp3",
+        "CHT _ Jardim Midas.mp3",
+        "CHT _ Meu casquinho e skol litrinho.mp3",
+        "CHT _ MEXERICA POCÃ.mp3",
+        "CHT _ MUXIBA DANADA.mp3",
+        "CHT _ O Midas que eu quero.mp3",
+        "CHT _ Que situação.mp3",
+        "CHT _ SIROBADA DE BANDIDO.mp3",
+        "CHT _ vem fritar com o midas vem.mp3",
+        "CHT - De surubim em surubim.mp3",
+        "CHT - DEIXE DE SER CLT.mp3",
+        "CHT - NÓIA.mp3",
+        "CHT - Rapé.mp3",
+        "CHT - Sambinudo de Canuquira.mp3",
+        "chtchitones - CHT - BATENDO BIELA.mp3",
+        "chtchitones - CHT - Campari Fever.mp3"
+      ],
+      "discografiaTheme": [
+        "Pixas - Oniubab.mp3"
+      ]
     },
     {
       "key": "pamsmela",
@@ -425,12 +727,17 @@
       "photo": null,
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [],
       "glossarioRelated": [
         "panderao"
       ],
       "memesRelated": [
         "karol mulher do curralo"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "zerius",
@@ -444,8 +751,15 @@
       "photo": null,
       "confirmed": true,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [
+        "Reapareceu no grupo após sumiço — Gabriel mandou 'claudinho olha quem apareceu, a merda do zerius!'. Bot respondeu 'RESSUSCITOU'"
+      ],
       "glossarioRelated": [],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Mafero",
@@ -456,8 +770,15 @@
       "photo": null,
       "confirmed": true,
       "status": "lendario",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [
+        "Lucca lamenta: 'Aqui jaz o mafero / Depois que ele foi removido esse grupo acabou'"
+      ],
       "glossarioRelated": [],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Xnas",
@@ -470,6 +791,9 @@
       "photo": null,
       "confirmed": false,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [],
       "glossarioRelated": [
         "moiadin",
         "peitri",
@@ -478,7 +802,9 @@
       ],
       "memesRelated": [
         "kart"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Rocha",
@@ -491,8 +817,13 @@
       "photo": null,
       "confirmed": false,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [],
       "glossarioRelated": [],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Joni",
@@ -505,8 +836,11 @@
       "photo": "img/members/Joni.jpg",
       "confirmed": false,
       "status": "ativo",
+      "isAdmin": false,
       "glossarioRelated": [],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Iodo",
@@ -517,12 +851,19 @@
       "photo": null,
       "confirmed": false,
       "status": "ativo",
+      "isAdmin": false,
+      "recentTopics": [],
+      "memorableEvents": [
+        "Italo lamenta: 'Iodo nunca mais foi o mesmo' (repetido em 03/2024)"
+      ],
       "glossarioRelated": [
         "IFM"
       ],
       "memesRelated": [
         "ifm iodo frodo meny"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Meny",
@@ -535,12 +876,15 @@
       "photo": null,
       "confirmed": false,
       "status": "ativo",
+      "isAdmin": false,
       "glossarioRelated": [
         "IFM"
       ],
       "memesRelated": [
         "ifm iodo frodo meny"
-      ]
+      ],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Denmerson_Marques",
@@ -551,8 +895,11 @@
       "photo": "img/members/Denmerson_Marques.jpg",
       "confirmed": false,
       "status": "ativo",
+      "isAdmin": false,
       "glossarioRelated": [],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     },
     {
       "key": "Guilherme",
@@ -563,8 +910,11 @@
       "photo": "img/members/Guilherme.jpg",
       "confirmed": false,
       "status": "ativo",
+      "isAdmin": false,
       "glossarioRelated": [],
-      "memesRelated": []
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     }
   ]
 }

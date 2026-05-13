@@ -1,7 +1,6 @@
 {
   "members": [
     {
-      "key": "nerfin",
       "nome": "Gabriel",
       "apelido": "nerfin",
       "apelidos": [
@@ -12,7 +11,6 @@
       ],
       "bio": "Operador do bot midal (claudinho). Divinópolis/MG. Cunhou \"mandioca on\" — divulgação de ranqueada de LoL. Voca registrado: slc, BOM DIA DOGUXO, FALA O GORILLA, PORRA.",
       "photo": "img/members/nerfin.jpg",
-      "confirmed": true,
       "status": "operador",
       "isAdmin": false,
       "glossarioRelated": [
@@ -38,16 +36,14 @@
       "discografiaTheme": []
     },
     {
-      "key": "Lucca",
-      "nome": "Lucca Massote (Lucca Garcia Diniz Massote)",
+      "nome": "Lucca",
       "apelido": "Frogo",
       "apelidos": [
         "Frogo",
         "Frodo?"
       ],
-      "bio": "Top 1 do grupo (13k msgs). Motor da conversa. Principal interlocutor do nerfin. Faz enquetes. Voca: muie, paizin, Nu",
+      "bio": "Top 1 do grupo Motor da conversa. Principal interlocutor do nerfin. Faz enquetes. Voca: muie, paizin, Nu",
       "photo": "img/members/Lucca.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "irritado/frustrado com nerfin",
@@ -84,7 +80,6 @@
       ]
     },
     {
-      "key": "scnogaY",
       "nome": "Yago",
       "apelido": "Gonquio",
       "apelidos": [
@@ -94,7 +89,6 @@
       ],
       "bio": "Top 2. Faz disparos via API oficial WhatsApp (marketing). Origem da piada Disparos 100% White e ministro da saúde",
       "photo": "img/members/scnogaY.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": true,
       "mood": "animado para encontrar Karol",
@@ -140,8 +134,7 @@
       ]
     },
     {
-      "key": "Gabriel Castro",
-      "nome": "Gabriel Castro",
+      "nome": "Gabriel",
       "apelido": "Pixas",
       "apelidos": [
         "Pixas",
@@ -149,7 +142,6 @@
       ],
       "bio": "Top 3. Provoca direto. Sítio nebixal é dele. NÃO confundir com nerfin (Gabriel)",
       "photo": "img/members/Gabriel_Castro.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "brincando com ameaça",
@@ -165,9 +157,15 @@
       ],
       "glossarioRelated": [
         "nebixal",
+        "fedaping",
+        "toma gap",
+        "JACAMBIRAS VEM JACAMBIRAS VAI",
+        "mogged",
+        "palhacinho inho",
         "moiadin",
         "peitri",
         "revolução midal",
+        "cavera team",
         "cuguloso",
         "diban",
         "forgar",
@@ -175,7 +173,8 @@
       ],
       "memesRelated": [
         "kart",
-        "gamba ou manganga"
+        "gamba ou manganga",
+        "palhacinho inho saga"
       ],
       "discografiaArtist": [
         "Pixas - Cagando na sacola.mp3",
@@ -191,15 +190,13 @@
       "discografiaTheme": []
     },
     {
-      "key": "Aquiles Teodoro",
-      "nome": "Aquiles Teodoro",
+      "nome": "Aquiles",
       "apelido": "Quilim",
       "apelidos": [
         "Quilim"
       ],
       "bio": "Top 4. Criativo nas msgs longas (paródias comerciais). Foca em comida",
       "photo": "img/members/Aquiles_Teodoro.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "exasperado",
@@ -219,7 +216,6 @@
       "discografiaTheme": []
     },
     {
-      "key": "olatÍ",
       "nome": "Italo",
       "apelido": "Sirob",
       "apelidos": [
@@ -231,7 +227,6 @@
       ],
       "bio": "Top 5. Admin do grupo. Mestre dos @Meta AI /imagine. Saga mitológica do nome dele é zoeira coletiva",
       "photo": "img/members/olat_.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": true,
       "mood": "chateado com xenofobia",
@@ -276,8 +271,7 @@
       ]
     },
     {
-      "key": "Henrique",
-      "nome": "Henrique APYR",
+      "nome": "Henrique",
       "apelido": "APYR",
       "apelidos": [
         "APYR",
@@ -285,9 +279,8 @@
         "entidade demoníaca",
         "Henrique Pardini"
       ],
-      "bio": "Top 6. Faz listas (kart, festas). NÃO confundir com Henrique Gontijo (Chitão). PushName: Henrique Pardini",
+      "bio": "Top 6. Faz listas (kart, festas). NÃO confundir com Henrique Gontijo (Chitão).",
       "photo": "img/members/Henrique.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [
@@ -308,7 +301,6 @@
       "discografiaTheme": []
     },
     {
-      "key": "Sequelado",
       "nome": "Thales",
       "apelido": "Sagui",
       "apelidos": [
@@ -318,9 +310,8 @@
         "Thales",
         "Thales Amorim"
       ],
-      "bio": "Top 7. Crônicas absurdas, narrativa satírica. PushName: Thales Amorim",
+      "bio": "Top 7. Crônicas absurdas, narrativa satírica.",
       "photo": "img/members/Sequelado.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [
@@ -354,13 +345,11 @@
       ]
     },
     {
-      "key": "Gustavo Cinza",
-      "nome": "Gustavo (Cinza)",
+      "nome": "Gustavo",
       "apelido": "Gustavo (Cinza)",
       "apelidos": [],
       "bio": "Top 8. Entrou em 25/01/2026. Reativo, exagera com kakakakak lineares",
       "photo": null,
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "preocupado/frustrado com Boneca",
@@ -384,14 +373,20 @@
         "pedindo receita"
       ],
       "glossarioRelated": [
-        "Coidei"
+        "esquisofrenix",
+        "esquisofrenix simulator",
+        "Coidei",
+        "pretin do lekin",
+        "Saszora",
+        "mamado"
       ],
-      "memesRelated": [],
+      "memesRelated": [
+        "aquiles idas e vindas"
+      ],
       "discografiaArtist": [],
       "discografiaTheme": []
     },
     {
-      "key": "tiago",
       "nome": "tiago",
       "apelido": "Rosinha",
       "apelidos": [
@@ -400,7 +395,6 @@
       ],
       "bio": "Top 9. Estilo peculiar — mensagens em russo aleatório, texto onomatopeico",
       "photo": "img/members/tiago.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "provocador",
@@ -428,16 +422,14 @@
       ]
     },
     {
-      "key": "Zé Pagão",
-      "nome": "Zé Pagão",
+      "nome": "Zé",
       "apelido": "Nathan Bresoline",
       "apelidos": [
         "Nathan Bresoline",
         "Nathan"
       ],
       "bio": "Top 10. CAPS pra reação forte (MORRI, GUANDO, CHAPANDO LEAN). Jiu-jitsu",
-      "photo": null,
-      "confirmed": true,
+      "photo": "img/members/Z__Pag_o.jpg",
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [
@@ -460,16 +452,14 @@
       "discografiaTheme": []
     },
     {
-      "key": "Jord",
-      "nome": "Lucas Nenino / Stênio",
+      "nome": "Lucas",
       "apelido": "Lucas Nenino",
       "apelidos": [
         "Lucas Nenino",
         "Stenio"
       ],
       "bio": "Top 11. Comentários secos. Joga TFT",
-      "photo": null,
-      "confirmed": true,
+      "photo": "img/members/Jord.jpg",
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [
@@ -487,8 +477,7 @@
       "discografiaTheme": []
     },
     {
-      "key": "Filipe Souza",
-      "nome": "Filipe Souza",
+      "nome": "Filipe",
       "apelido": "Curralo",
       "apelidos": [
         "Curralo",
@@ -496,7 +485,6 @@
       ],
       "bio": "Top 12. Organizador. Aniversário curralal / Sítio curralal / Mansão curralal são dele",
       "photo": "img/members/Filipe_Souza.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "fazendo piada sugestiva",
@@ -525,13 +513,11 @@
       ]
     },
     {
-      "key": "Pedroga",
       "nome": "Pedroga",
       "apelido": "Pedroga",
       "apelidos": [],
       "bio": "Top 13. DDD 31 (BH, fora do eixo). Narrativas escatológicas",
       "photo": "img/members/Pedroga.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [],
@@ -546,7 +532,6 @@
       "discografiaTheme": []
     },
     {
-      "key": "Rato",
       "nome": "João Vitor",
       "apelido": "Ratinho",
       "apelidos": [
@@ -554,9 +539,8 @@
         "DIABO",
         "João Victor Cunha"
       ],
-      "bio": "Top 14. CAPS top abs (24%). Agressivo, rápido. Provoca. TFT. PushName: João Victor Cunha",
+      "bio": "Top 14. CAPS top abs (24%). Agressivo, rápido. Provoca. TFT.",
       "photo": "img/members/Rato.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "tonto é bão dms",
@@ -579,8 +563,7 @@
       ]
     },
     {
-      "key": "João Pedro Melo",
-      "nome": "João Pedro Melo",
+      "nome": "João Pedro",
       "apelido": "Falcão do complexo",
       "apelidos": [
         "Falcão do complexo",
@@ -588,7 +571,6 @@
       ],
       "bio": "Top 15. Narrativa elaborada. 'Pedro' é como o pushName aparece no grupo. NÃO confundir com Pedroga (BH, DDD 31)",
       "photo": "img/members/Jo_o_Pedro_Melo.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "rindo muito e animado",
@@ -623,8 +605,7 @@
       "discografiaTheme": []
     },
     {
-      "key": "Gustavo Santos",
-      "nome": "Gustavo (Preto)",
+      "nome": "Gustavo",
       "apelido": "Gustavo Preto",
       "apelidos": [
         "Gustavo Preto",
@@ -633,7 +614,6 @@
       ],
       "bio": "Top 16. Ex-membro do midas. Amigo de todo mundo. Apelidado 'boneca' / 'black doll'. Saiu/foi removido do grupo (citado em 08/05/2026 como ex-membro). Diferente do Gustavo Cinza",
       "photo": null,
-      "confirmed": true,
       "status": "ex-membro",
       "isAdmin": false,
       "recentTopics": [],
@@ -641,6 +621,11 @@
         "Confirmado como ex-membro do midas — apelidado 'boneca'/'black doll'. Amigo de todo mundo. Bot mencionou em 08/05/2026 que ele saiu"
       ],
       "glossarioRelated": [
+        "esquisofrenix",
+        "esquisofrenix simulator",
+        "Coidei",
+        "pretin do lekin",
+        "Saszora",
         "mamado"
       ],
       "memesRelated": [
@@ -651,8 +636,7 @@
       "discografiaTheme": []
     },
     {
-      "key": "Henrique Gontijo",
-      "nome": "Henrique Gontijo",
+      "nome": "Henrique",
       "apelido": "Chitão",
       "apelidos": [
         "Chitão",
@@ -660,7 +644,6 @@
       ],
       "bio": "Top 17. Mensagens mais longas do top. Reflexivo. NÃO é o APYR",
       "photo": "img/members/Henrique_Gontijo.jpg",
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "mood": "dramático/resignado sobre sofrimento",
@@ -686,7 +669,9 @@
         "pitico",
         "batendo biela"
       ],
-      "memesRelated": [],
+      "memesRelated": [
+        "terraco curralal"
+      ],
       "discografiaArtist": [
         "CHT _ BAFORA LOLIS.mp3",
         "CHT _ CEO KIBOCADA.mp3",
@@ -716,8 +701,7 @@
       ]
     },
     {
-      "key": "pamsmela",
-      "nome": "Pâmela (irmã do Yago/scnogaY/Gonquio)",
+      "nome": "Pâmela",
       "apelido": "pamsmela",
       "apelidos": [
         "pamsmela",
@@ -725,7 +709,6 @@
       ],
       "bio": "Irmã do Yago. NÃO é membro do grupo. Vira alvo de zoeira pra revidar quando o Yago zoa alguém — bordão útil pra contra-zoeira. Ex: Yago manda pedido absurdo no bot → bot vira contra ele citando pamsmela.",
       "photo": null,
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [],
@@ -740,7 +723,6 @@
       "discografiaTheme": []
     },
     {
-      "key": "zerius",
       "nome": "Zerius",
       "apelido": "🐺",
       "apelidos": [
@@ -749,7 +731,6 @@
       ],
       "bio": "PushName lobo 🐺. Reaparece esporadicamente e provoca direto. Voltou em 08/05/2026 ('claudinho olha quem apareceu, a merda do zerius!') e zoou o bot com 'explanou o raro', 'fake print pra proteger seu criador claudete', 'Claudete, vc é cuiudo ou zé pagao?'",
       "photo": null,
-      "confirmed": true,
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [],
@@ -762,13 +743,11 @@
       "discografiaTheme": []
     },
     {
-      "key": "Mafero",
       "nome": "Mafero",
       "apelido": "Mafero",
       "apelidos": [],
-      "bio": "Ex-membro LENDÁRIO do grupo (2023-2024). Múltiplas referências canônicas: 'O mafero é imbanível' (Lucca 06/2023), 'Conexão mafero nebex' (Italo 05/2023), 'sinto o mafero muito ausente ultimamente' (Italo 06/2023), 'mafero herdeiro?', 'tem um hd de 2 tb com todas as mídias e conversas do midas pra acabar com a vida de cada um aqui' (Lucca 04/2023). Tem ENCICLOPÉDIA visual ('MAFERO INVOKED' do APYR). Lucca lamentou em 12/05/2026: 'Aqui jaz o mafero / Depois que ele foi removido esse grupo acabou'. Data exata da remoção e nome real ainda pendentes — duvidas.md.",
+      "bio": "Ex-membro LENDÁRIO do grupo (2023-2024). Múltiplas referências canônicas: 'O mafero é imbanível' (Lucca 06/2023), 'Conexão mafero nebex' (Italo 05/2023), 'sinto o mafero muito ausente ultimamente' (Italo 06/2023), 'mafero herdeiro?', 'tem um hd de 2 tb com todas as mídias e conversas do midas pra acabar com a vida de cada um aqui' (Lucca 04/2023). Tem ENCICLOPÉDIA visual ('MAFERO INVOKED' do APYR). Lucca lamentou em 12/05/2026: 'Aqui jaz o mafero / Depois que ele foi removido esse grupo acabou'. Data exata da remoção e nome real ainda pendentes — histórico.",
       "photo": null,
-      "confirmed": true,
       "status": "lendario",
       "isAdmin": false,
       "recentTopics": [],
@@ -781,15 +760,13 @@
       "discografiaTheme": []
     },
     {
-      "key": "Xnas",
       "nome": "Xnas",
       "apelido": "xNas",
       "apelidos": [
         "xNas"
       ],
-      "bio": "Membro ATIVO recorrente desde 03/2023 — 441 menções no _chat.txt + 18881 ocorrências totais. Última atividade conhecida 13/04/2026. Marcas registradas: 'maciin moiadin' (avaliação de maconha), 'pretoso', 'macarrão diban'. Plantel core do grupo. Companhia frequente do Nathan, Nenio, Italo, Goncs. PushName real e identidade civil pendentes — pergunta pro user na próxima rodada.",
-      "photo": null,
-      "confirmed": false,
+      "bio": "Membro ATIVO recorrente desde 03/2023 — no histórico + Última atividade conhecida 13/04/2026. Marcas registradas: 'maciin moiadin' (avaliação de maconha), 'pretoso', 'macarrão diban'. Plantel core do grupo. Companhia frequente do Nathan, Nenio, Italo, Goncs.",
+      "photo": "img/members/Xnas.jpg",
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [],
@@ -807,15 +784,13 @@
       "discografiaTheme": []
     },
     {
-      "key": "Rocha",
       "nome": "Rocha",
       "apelido": "Rocha Trader",
       "apelidos": [
         "Rocha Trader"
       ],
-      "bio": "Membro do grupo desde 03/2023 — 1343 mensagens. Estilo de fala distinto ('Ce escreveu igual o @Rocha Trader, tendi nada!' — Lucca). Citado pelo Italo: 'dibereu dms o rocha ir pra um banco'. Atividade variável. PushName 'Rocha Trader' confirmado. Identidade civil pendente.",
+      "bio": "Membro do grupo desde 03/2023 Estilo de fala distinto ('Ce escreveu igual o @Rocha Trader, tendi nada!' — Lucca). Citado pelo Italo: 'dibereu dms o rocha ir pra um banco'. Atividade variável.",
       "photo": null,
-      "confirmed": false,
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [],
@@ -826,15 +801,13 @@
       "discografiaTheme": []
     },
     {
-      "key": "Joni",
-      "nome": "Joni (provavelmente diferente do Henrique Gontijo/Chitão)",
+      "nome": "Joni",
       "apelido": "Joni Gontijo",
       "apelidos": [
         "Joni Gontijo"
       ],
-      "bio": "Membro ativo desde 03/2023. Estilo de fala CURTO/AGRESSIVO ('Kakakakakakakka', 'saiu do prumo', 'tava full fumante') — distinto do Henrique Gontijo (mensagens longas reflexivas). 171 menções como 'Joni Gontijo'. Atualmente apelido 'Joni Gontijo' está duplicado no seed:Henrique Gontijo (peers). Sobrenome compartilhado sugere parentesco (irmão do Chitão?), mas são DUAS pessoas distintas. PushName real e identidade civil pendentes. Verificar próxima sessão se ainda há overlap no peers/_index.json",
+      "bio": "Membro ativo desde 03/2023. Estilo de fala CURTO/AGRESSIVO ('Kakakakakakakka', 'saiu do prumo', 'tava full fumante') — distinto do Henrique Gontijo (mensagens longas reflexivas). como 'Joni Gontijo'.",
       "photo": "img/members/Joni.jpg",
-      "confirmed": false,
       "status": "ativo",
       "isAdmin": false,
       "glossarioRelated": [],
@@ -843,13 +816,11 @@
       "discografiaTheme": []
     },
     {
-      "key": "Iodo",
       "nome": "Iodo",
       "apelido": "Iodo",
       "apelidos": [],
-      "bio": "Membro ativo do grupo. Italo cita recorrentemente desde 04/2023: 'Iodo carregando o xnas', 'Iodo nunca mais foi o mesmo' (repete em 03/2024). Histórico: 'Iodo deixou de ir no vintage pra trabalhar no feriado', 'Iodo tá chei das amiga memo' (JP 07/2024). Compõe o trio fictício IFM (Iodo Frodo Meny) com Lucca. Vida pessoal acompanhada pelo grupo. PushName real e identidade civil pendentes.",
+      "bio": "Membro ativo do grupo. Italo cita recorrentemente desde 04/2023: 'Iodo carregando o xnas', 'Iodo nunca mais foi o mesmo' (repete em 03/2024). Histórico: 'Iodo deixou de ir no vintage pra trabalhar no feriado', 'Iodo tá chei das amiga memo' (JP 07/2024). Compõe o trio fictício IFM (Iodo Frodo Meny) com Lucca. Vida pessoal acompanhada pelo grupo.",
       "photo": null,
-      "confirmed": false,
       "status": "ativo",
       "isAdmin": false,
       "recentTopics": [],
@@ -866,15 +837,13 @@
       "discografiaTheme": []
     },
     {
-      "key": "Meny",
-      "nome": "Meny (provavelmente Meneca/Diogo Menezes — baixa confiança)",
+      "nome": "Meny",
       "apelido": "Meneca?",
       "apelidos": [
         "Meneca?"
       ],
-      "bio": "3º membro do trio fictício IFM (Iodo Frodo Meny). Apelido só aparece dentro de 'IFM'. Possível variante: 'Meneca' (Italo 20/01/2025: 'Conexão Meneca / Pixeca = Meneca'). 'Diogo Menezes' citado por APYR 14/04/2026 — pode ser identidade civil. Evidência fraca, low confidence. Aguardando confirmação do user na próxima rodada.",
+      "bio": "3º membro do trio fictício IFM (Iodo Frodo Meny). Apelido só aparece dentro de 'IFM'. Possível variante: 'Meneca' (Italo 20/01/2025: 'Conexão Meneca / Pixeca = Meneca'). Evidência fraca, low confidence.",
       "photo": null,
-      "confirmed": false,
       "status": "ativo",
       "isAdmin": false,
       "glossarioRelated": [
@@ -887,13 +856,11 @@
       "discografiaTheme": []
     },
     {
-      "key": "Denmerson_Marques",
-      "nome": "Denmerson Marques",
+      "nome": "Denmerson",
       "apelido": "Denmerson",
       "apelidos": [],
       "bio": "Membro ativo do grupo. Status no WhatsApp: \"Namorado da Pamela\". Pamela é irmã do Yago (scnogaY/Gonquio). Identidade midal e marcas registradas pendentes.",
       "photo": "img/members/Denmerson_Marques.jpg",
-      "confirmed": false,
       "status": "ativo",
       "isAdmin": false,
       "glossarioRelated": [],
@@ -902,13 +869,11 @@
       "discografiaTheme": []
     },
     {
-      "key": "Guilherme",
       "nome": "Guilherme",
       "apelido": "Guilherme",
       "apelidos": [],
       "bio": "Membro ativo do grupo. Apelido midal e marcas registradas pendentes — entrou no radar via lista de participantes do WhatsApp.",
       "photo": "img/members/Guilherme.jpg",
-      "confirmed": false,
       "status": "ativo",
       "isAdmin": false,
       "glossarioRelated": [],

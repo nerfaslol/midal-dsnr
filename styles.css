@@ -507,14 +507,14 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 16px;
 }
-.meme {
+article.meme {
   background: var(--bg-2);
   border: 1px solid var(--border);
   padding: 20px;
   transition: all .15s;
   position: relative;
 }
-.meme::before {
+article.meme::before {
   content: '#';
   position: absolute;
   top: 6px; right: 14px;
@@ -522,8 +522,8 @@ main {
   font-size: 38px;
   color: var(--border-2);
 }
-.meme:hover { border-color: var(--purple); }
-.meme h3 {
+article.meme:hover { border-color: var(--purple); }
+article.meme h3 {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 22px;
   margin: 0 0 8px;
@@ -531,7 +531,7 @@ main {
   color: var(--purple);
   padding-right: 28px;
 }
-.meme p { font-size: 13px; margin: 0; color: var(--fg-dim); line-height: 1.6; }
+article.meme p { font-size: 13px; margin: 0; color: var(--fg-dim); line-height: 1.6; }
 
 /* ===== FOOTER ===== */
 .foot {

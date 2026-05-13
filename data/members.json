@@ -11,7 +11,7 @@
         "doguxo"
       ],
       "bio": "Operador do bot midal (claudinho). Divinópolis/MG. Cunhou \"mandioca on\" — divulgação de ranqueada de LoL. Voca registrado: slc, BOM DIA DOGUXO, FALA O GORILLA, PORRA.",
-      "photo": "img/members/153656884260991_lid.jpg",
+      "photo": "img/members/nerfin.jpg",
       "confirmed": true,
       "status": "operador"
     },
@@ -24,7 +24,7 @@
         "Frodo?"
       ],
       "bio": "Top 1 do grupo (13k msgs). Motor da conversa. Principal interlocutor do nerfin. Faz enquetes. Voca: muie, paizin, Nu",
-      "photo": null,
+      "photo": "img/members/Lucca.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -38,7 +38,7 @@
         "Yago Nunes"
       ],
       "bio": "Top 2. Faz disparos via API oficial WhatsApp (marketing). Origem da piada Disparos 100% White e ministro da saúde",
-      "photo": null,
+      "photo": "img/members/scnogaY.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -51,7 +51,7 @@
         "Nebix"
       ],
       "bio": "Top 3. Provoca direto. Sítio nebixal é dele. NÃO confundir com nerfin (Gabriel)",
-      "photo": null,
+      "photo": "img/members/Gabriel_Castro.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -63,7 +63,7 @@
         "Quilim"
       ],
       "bio": "Top 4. Criativo nas msgs longas (paródias comerciais). Foca em comida",
-      "photo": null,
+      "photo": "img/members/Aquiles_Teodoro.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -79,7 +79,7 @@
         "Italo"
       ],
       "bio": "Top 5. Admin do grupo. Mestre dos @Meta AI /imagine. Saga mitológica do nome dele é zoeira coletiva",
-      "photo": null,
+      "photo": "img/members/olat_.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -94,7 +94,7 @@
         "Henrique Pardini"
       ],
       "bio": "Top 6. Faz listas (kart, festas). NÃO confundir com Henrique Gontijo (Chitão). PushName: Henrique Pardini",
-      "photo": null,
+      "photo": "img/members/Henrique.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -110,7 +110,7 @@
         "Thales Amorim"
       ],
       "bio": "Top 7. Crônicas absurdas, narrativa satírica. PushName: Thales Amorim",
-      "photo": null,
+      "photo": "img/members/Sequelado.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -133,7 +133,7 @@
         "Rosinha Nebulosa"
       ],
       "bio": "Top 9. Estilo peculiar — mensagens em russo aleatório, texto onomatopeico",
-      "photo": null,
+      "photo": "img/members/tiago.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -172,7 +172,7 @@
         "Dr. Filipe Souza"
       ],
       "bio": "Top 12. Organizador. Aniversário curralal / Sítio curralal / Mansão curralal são dele",
-      "photo": null,
+      "photo": "img/members/Filipe_Souza.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -182,7 +182,7 @@
       "apelido": "(BH)",
       "apelidos": [],
       "bio": "Top 13. DDD 31 (BH, fora do eixo). Narrativas escatológicas",
-      "photo": null,
+      "photo": "img/members/Pedroga.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -196,7 +196,7 @@
         "João Victor Cunha"
       ],
       "bio": "Top 14. CAPS top abs (24%). Agressivo, rápido. Provoca. TFT. PushName: João Victor Cunha",
-      "photo": null,
+      "photo": "img/members/Rato.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -209,7 +209,7 @@
         "Pedro"
       ],
       "bio": "Top 15. Narrativa elaborada. 'Pedro' é como o pushName aparece no grupo. NÃO confundir com Pedroga (BH, DDD 31)",
-      "photo": "img/members/11317356306510_lid.jpg",
+      "photo": "img/members/Jo_o_Pedro_Melo.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -236,7 +236,7 @@
         "Chitas"
       ],
       "bio": "Top 17. Mensagens mais longas do top. Reflexivo. NÃO é o APYR",
-      "photo": "img/members/84301634904217_lid.jpg",
+      "photo": "img/members/Henrique_Gontijo.jpg",
       "confirmed": true,
       "status": "ativo"
     },
@@ -308,7 +308,7 @@
         "Joni Gontijo"
       ],
       "bio": "Membro ativo desde 03/2023. Estilo de fala CURTO/AGRESSIVO ('Kakakakakakakka', 'saiu do prumo', 'tava full fumante') — distinto do Henrique Gontijo (mensagens longas reflexivas). 171 menções como 'Joni Gontijo'. Atualmente apelido 'Joni Gontijo' está duplicado no seed:Henrique Gontijo (peers). Sobrenome compartilhado sugere parentesco (irmão do Chitão?), mas são DUAS pessoas distintas. PushName real e identidade civil pendentes. Verificar próxima sessão se ainda há overlap no peers/_index.json",
-      "photo": null,
+      "photo": "img/members/Joni.jpg",
       "confirmed": false,
       "status": "ativo"
     },
@@ -331,6 +331,26 @@
       ],
       "bio": "3º membro do trio fictício IFM (Iodo Frodo Meny). Apelido só aparece dentro de 'IFM'. Possível variante: 'Meneca' (Italo 20/01/2025: 'Conexão Meneca / Pixeca = Meneca'). 'Diogo Menezes' citado por APYR 14/04/2026 — pode ser identidade civil. Evidência fraca, low confidence. Aguardando confirmação do user na próxima rodada.",
       "photo": null,
+      "confirmed": false,
+      "status": "ativo"
+    },
+    {
+      "key": "Denmerson_Marques",
+      "nome": "Denmerson Marques",
+      "apelido": "Denmerson",
+      "apelidos": [],
+      "bio": "Membro do grupo. Status no WhatsApp: \"Namorado da Pamela\". Pamela é irmã do Yago (scnogaY/Gonquio). Identidade midal pendente.",
+      "photo": "img/members/Denmerson_Marques.jpg",
+      "confirmed": false,
+      "status": "ativo"
+    },
+    {
+      "key": "Guilherme",
+      "nome": "Guilherme",
+      "apelido": "Guilherme",
+      "apelidos": [],
+      "bio": "Membro do grupo. Apelido midal e marcas registradas pendentes — entrou no radar via lista de participantes do WhatsApp.",
+      "photo": "img/members/Guilherme.jpg",
       "confirmed": false,
       "status": "ativo"
     }

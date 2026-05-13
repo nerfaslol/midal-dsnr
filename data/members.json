@@ -13,7 +13,26 @@
       "bio": "Operador do bot midal (claudinho). Divinópolis/MG. Cunhou \"mandioca on\" — divulgação de ranqueada de LoL. Voca registrado: slc, BOM DIA DOGUXO, FALA O GORILLA, PORRA.",
       "photo": "img/members/nerfin.jpg",
       "confirmed": true,
-      "status": "operador"
+      "status": "operador",
+      "glossarioRelated": [
+        "nebixal",
+        "doguxo",
+        "mandioca on",
+        "fedaping",
+        "esquisofrenix",
+        "toma gap",
+        "esquisofrenix simulator",
+        "JACAMBIRAS VEM JACAMBIRAS VAI",
+        "mogged",
+        "palhacinho inho",
+        "cavera team",
+        "cuguloso",
+        "Currala"
+      ],
+      "memesRelated": [
+        "kart",
+        "palhacinho inho saga"
+      ]
     },
     {
       "key": "Lucca",
@@ -26,7 +45,21 @@
       "bio": "Top 1 do grupo (13k msgs). Motor da conversa. Principal interlocutor do nerfin. Faz enquetes. Voca: muie, paizin, Nu",
       "photo": "img/members/Lucca.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "fragar",
+        "Lekin",
+        "disbicar",
+        "averiguar resenha",
+        "Joel",
+        "IFM"
+      ],
+      "memesRelated": [
+        "enquetes",
+        "kart",
+        "bot numero errado",
+        "ifm iodo frodo meny"
+      ]
     },
     {
       "key": "scnogaY",
@@ -40,7 +73,24 @@
       "bio": "Top 2. Faz disparos via API oficial WhatsApp (marketing). Origem da piada Disparos 100% White e ministro da saúde",
       "photo": "img/members/scnogaY.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "disparos",
+        "Monster",
+        "panderao",
+        "mogged",
+        "Karol",
+        "vissium",
+        "gambá ou mangangá",
+        "noia",
+        "Joel"
+      ],
+      "memesRelated": [
+        "disparos 100 white",
+        "kart",
+        "ficha tecnica membro",
+        "karol mulher do curralo"
+      ]
     },
     {
       "key": "Gabriel Castro",
@@ -53,7 +103,21 @@
       "bio": "Top 3. Provoca direto. Sítio nebixal é dele. NÃO confundir com nerfin (Gabriel)",
       "photo": "img/members/Gabriel_Castro.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "nebixal",
+        "moiadin",
+        "peitri",
+        "revolução midal",
+        "cuguloso",
+        "diban",
+        "forgar",
+        "gambá ou mangangá"
+      ],
+      "memesRelated": [
+        "kart",
+        "gamba ou manganga"
+      ]
     },
     {
       "key": "Aquiles Teodoro",
@@ -65,7 +129,13 @@
       "bio": "Top 4. Criativo nas msgs longas (paródias comerciais). Foca em comida",
       "photo": "img/members/Aquiles_Teodoro.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "revolução midal"
+      ],
+      "memesRelated": [
+        "aquiles idas e vindas"
+      ]
     },
     {
       "key": "olatÍ",
@@ -81,7 +151,29 @@
       "bio": "Top 5. Admin do grupo. Mestre dos @Meta AI /imagine. Saga mitológica do nome dele é zoeira coletiva",
       "photo": "img/members/olat_.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "DSNR",
+        "Coidei",
+        "Lekin",
+        "palhacinho inho",
+        "dibereu",
+        "peitri",
+        "disbicar",
+        "vissium",
+        "diban",
+        "keks",
+        "averiguar resenha",
+        "gambá ou mangangá",
+        "Joel",
+        "IFM"
+      ],
+      "memesRelated": [
+        "saga sirob",
+        "maquina de averiguar resenha",
+        "ifm iodo frodo meny",
+        "palhacinho inho saga"
+      ]
     },
     {
       "key": "Henrique",
@@ -96,7 +188,16 @@
       "bio": "Top 6. Faz listas (kart, festas). NÃO confundir com Henrique Gontijo (Chitão). PushName: Henrique Pardini",
       "photo": "img/members/Henrique.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "pitico",
+        "batendo biela",
+        "Joel",
+        "Currala"
+      ],
+      "memesRelated": [
+        "terraco curralal"
+      ]
     },
     {
       "key": "Sequelado",
@@ -112,7 +213,11 @@
       "bio": "Top 7. Crônicas absurdas, narrativa satírica. PushName: Thales Amorim",
       "photo": "img/members/Sequelado.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "cavera team"
+      ],
+      "memesRelated": []
     },
     {
       "key": "Gustavo Cinza",
@@ -122,7 +227,11 @@
       "bio": "Top 8. Entrou em 25/01/2026. Reativo, exagera com kakakakak lineares",
       "photo": null,
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "Coidei"
+      ],
+      "memesRelated": []
     },
     {
       "key": "tiago",
@@ -135,7 +244,11 @@
       "bio": "Top 9. Estilo peculiar — mensagens em russo aleatório, texto onomatopeico",
       "photo": "img/members/tiago.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "vissium"
+      ],
+      "memesRelated": []
     },
     {
       "key": "Zé Pagão",
@@ -148,7 +261,16 @@
       "bio": "Top 10. CAPS pra reação forte (MORRI, GUANDO, CHAPANDO LEAN). Jiu-jitsu",
       "photo": null,
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "pretoso",
+        "tapreto",
+        "moiadin",
+        "peitri",
+        "bullius",
+        "forgar"
+      ],
+      "memesRelated": []
     },
     {
       "key": "Jord",
@@ -161,7 +283,13 @@
       "bio": "Top 11. Comentários secos. Joga TFT",
       "photo": null,
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "revolução midal",
+        "forgar",
+        "averiguar resenha"
+      ],
+      "memesRelated": []
     },
     {
       "key": "Filipe Souza",
@@ -174,17 +302,36 @@
       "bio": "Top 12. Organizador. Aniversário curralal / Sítio curralal / Mansão curralal são dele",
       "photo": "img/members/Filipe_Souza.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "torar",
+        "Karol",
+        "Lekin",
+        "noia",
+        "Currala"
+      ],
+      "memesRelated": [
+        "aniversario curralal",
+        "kart",
+        "terraco curralal",
+        "karol mulher do curralo"
+      ]
     },
     {
       "key": "Pedroga",
-      "nome": "(BH)",
-      "apelido": "(BH)",
+      "nome": "Pedroga",
+      "apelido": "Pedroga",
       "apelidos": [],
       "bio": "Top 13. DDD 31 (BH, fora do eixo). Narrativas escatológicas",
       "photo": "img/members/Pedroga.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "pretoso",
+        "tapreto",
+        "revolução midal"
+      ],
+      "memesRelated": []
     },
     {
       "key": "Rato",
@@ -198,7 +345,12 @@
       "bio": "Top 14. CAPS top abs (24%). Agressivo, rápido. Provoca. TFT. PushName: João Victor Cunha",
       "photo": "img/members/Rato.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "mamado",
+        "noia"
+      ],
+      "memesRelated": []
     },
     {
       "key": "João Pedro Melo",
@@ -211,7 +363,16 @@
       "bio": "Top 15. Narrativa elaborada. 'Pedro' é como o pushName aparece no grupo. NÃO confundir com Pedroga (BH, DDD 31)",
       "photo": "img/members/Jo_o_Pedro_Melo.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "pretoso",
+        "tapreto",
+        "revolução midal",
+        "Joel"
+      ],
+      "memesRelated": [
+        "joel personagem ficticio"
+      ]
     },
     {
       "key": "Gustavo Santos",
@@ -225,7 +386,14 @@
       "bio": "Top 16. Ex-membro do midas. Amigo de todo mundo. Apelidado 'boneca' / 'black doll'. Saiu/foi removido do grupo (citado em 08/05/2026 como ex-membro). Diferente do Gustavo Cinza",
       "photo": null,
       "confirmed": true,
-      "status": "ex-membro"
+      "status": "ex-membro",
+      "glossarioRelated": [
+        "mamado"
+      ],
+      "memesRelated": [
+        "kart",
+        "aquiles idas e vindas"
+      ]
     },
     {
       "key": "Henrique Gontijo",
@@ -238,7 +406,12 @@
       "bio": "Top 17. Mensagens mais longas do top. Reflexivo. NÃO é o APYR",
       "photo": "img/members/Henrique_Gontijo.jpg",
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "pitico",
+        "batendo biela"
+      ],
+      "memesRelated": []
     },
     {
       "key": "pamsmela",
@@ -251,7 +424,13 @@
       "bio": "Irmã do Yago. NÃO é membro do grupo. Vira alvo de zoeira pra revidar quando o Yago zoa alguém — bordão útil pra contra-zoeira. Ex: Yago manda pedido absurdo no bot → bot vira contra ele citando pamsmela.",
       "photo": null,
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "panderao"
+      ],
+      "memesRelated": [
+        "karol mulher do curralo"
+      ]
     },
     {
       "key": "zerius",
@@ -264,21 +443,25 @@
       "bio": "PushName lobo 🐺. Reaparece esporadicamente e provoca direto. Voltou em 08/05/2026 ('claudinho olha quem apareceu, a merda do zerius!') e zoou o bot com 'explanou o raro', 'fake print pra proteger seu criador claudete', 'Claudete, vc é cuiudo ou zé pagao?'",
       "photo": null,
       "confirmed": true,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [],
+      "memesRelated": []
     },
     {
       "key": "Mafero",
-      "nome": "Mafero (nome real pendente)",
-      "apelido": "Mafero (nome real pendente)",
+      "nome": "Mafero",
+      "apelido": "Mafero",
       "apelidos": [],
       "bio": "Ex-membro LENDÁRIO do grupo (2023-2024). Múltiplas referências canônicas: 'O mafero é imbanível' (Lucca 06/2023), 'Conexão mafero nebex' (Italo 05/2023), 'sinto o mafero muito ausente ultimamente' (Italo 06/2023), 'mafero herdeiro?', 'tem um hd de 2 tb com todas as mídias e conversas do midas pra acabar com a vida de cada um aqui' (Lucca 04/2023). Tem ENCICLOPÉDIA visual ('MAFERO INVOKED' do APYR). Lucca lamentou em 12/05/2026: 'Aqui jaz o mafero / Depois que ele foi removido esse grupo acabou'. Data exata da remoção e nome real ainda pendentes — duvidas.md.",
       "photo": null,
       "confirmed": true,
-      "status": "lendario"
+      "status": "lendario",
+      "glossarioRelated": [],
+      "memesRelated": []
     },
     {
       "key": "Xnas",
-      "nome": "Xnas (identidade civil pendente)",
+      "nome": "Xnas",
       "apelido": "xNas",
       "apelidos": [
         "xNas"
@@ -286,11 +469,20 @@
       "bio": "Membro ATIVO recorrente desde 03/2023 — 441 menções no _chat.txt + 18881 ocorrências totais. Última atividade conhecida 13/04/2026. Marcas registradas: 'maciin moiadin' (avaliação de maconha), 'pretoso', 'macarrão diban'. Plantel core do grupo. Companhia frequente do Nathan, Nenio, Italo, Goncs. PushName real e identidade civil pendentes — pergunta pro user na próxima rodada.",
       "photo": null,
       "confirmed": false,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "moiadin",
+        "peitri",
+        "diban",
+        "forgar"
+      ],
+      "memesRelated": [
+        "kart"
+      ]
     },
     {
       "key": "Rocha",
-      "nome": "Rocha (identidade civil pendente)",
+      "nome": "Rocha",
       "apelido": "Rocha Trader",
       "apelidos": [
         "Rocha Trader"
@@ -298,7 +490,9 @@
       "bio": "Membro do grupo desde 03/2023 — 1343 mensagens. Estilo de fala distinto ('Ce escreveu igual o @Rocha Trader, tendi nada!' — Lucca). Citado pelo Italo: 'dibereu dms o rocha ir pra um banco'. Atividade variável. PushName 'Rocha Trader' confirmado. Identidade civil pendente.",
       "photo": null,
       "confirmed": false,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [],
+      "memesRelated": []
     },
     {
       "key": "Joni",
@@ -310,17 +504,25 @@
       "bio": "Membro ativo desde 03/2023. Estilo de fala CURTO/AGRESSIVO ('Kakakakakakakka', 'saiu do prumo', 'tava full fumante') — distinto do Henrique Gontijo (mensagens longas reflexivas). 171 menções como 'Joni Gontijo'. Atualmente apelido 'Joni Gontijo' está duplicado no seed:Henrique Gontijo (peers). Sobrenome compartilhado sugere parentesco (irmão do Chitão?), mas são DUAS pessoas distintas. PushName real e identidade civil pendentes. Verificar próxima sessão se ainda há overlap no peers/_index.json",
       "photo": "img/members/Joni.jpg",
       "confirmed": false,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [],
+      "memesRelated": []
     },
     {
       "key": "Iodo",
-      "nome": "Iodo (identidade civil pendente)",
-      "apelido": "Iodo (identidade civil pendente)",
+      "nome": "Iodo",
+      "apelido": "Iodo",
       "apelidos": [],
       "bio": "Membro ativo do grupo. Italo cita recorrentemente desde 04/2023: 'Iodo carregando o xnas', 'Iodo nunca mais foi o mesmo' (repete em 03/2024). Histórico: 'Iodo deixou de ir no vintage pra trabalhar no feriado', 'Iodo tá chei das amiga memo' (JP 07/2024). Compõe o trio fictício IFM (Iodo Frodo Meny) com Lucca. Vida pessoal acompanhada pelo grupo. PushName real e identidade civil pendentes.",
       "photo": null,
       "confirmed": false,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "IFM"
+      ],
+      "memesRelated": [
+        "ifm iodo frodo meny"
+      ]
     },
     {
       "key": "Meny",
@@ -332,32 +534,37 @@
       "bio": "3º membro do trio fictício IFM (Iodo Frodo Meny). Apelido só aparece dentro de 'IFM'. Possível variante: 'Meneca' (Italo 20/01/2025: 'Conexão Meneca / Pixeca = Meneca'). 'Diogo Menezes' citado por APYR 14/04/2026 — pode ser identidade civil. Evidência fraca, low confidence. Aguardando confirmação do user na próxima rodada.",
       "photo": null,
       "confirmed": false,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [
+        "IFM"
+      ],
+      "memesRelated": [
+        "ifm iodo frodo meny"
+      ]
     },
     {
       "key": "Denmerson_Marques",
       "nome": "Denmerson Marques",
       "apelido": "Denmerson",
       "apelidos": [],
-      "bio": "Membro do grupo. Status no WhatsApp: \"Namorado da Pamela\". Pamela é irmã do Yago (scnogaY/Gonquio). Identidade midal pendente.",
+      "bio": "Membro ativo do grupo. Status no WhatsApp: \"Namorado da Pamela\". Pamela é irmã do Yago (scnogaY/Gonquio). Identidade midal e marcas registradas pendentes.",
       "photo": "img/members/Denmerson_Marques.jpg",
       "confirmed": false,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [],
+      "memesRelated": []
     },
     {
       "key": "Guilherme",
       "nome": "Guilherme",
       "apelido": "Guilherme",
       "apelidos": [],
-      "bio": "Membro do grupo. Apelido midal e marcas registradas pendentes — entrou no radar via lista de participantes do WhatsApp.",
+      "bio": "Membro ativo do grupo. Apelido midal e marcas registradas pendentes — entrou no radar via lista de participantes do WhatsApp.",
       "photo": "img/members/Guilherme.jpg",
       "confirmed": false,
-      "status": "ativo"
+      "status": "ativo",
+      "glossarioRelated": [],
+      "memesRelated": []
     }
-  ],
-  "unknownPhotos": [
-    "76484794429670_lid",
-    "9676628431050_lid",
-    "153656884260991_lid"
   ]
 }

@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="styles.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -29,31 +29,18 @@
 </header>
 
 <main>
-  <!-- MEMBROS -->
   <section id="membros" class="panel active">
     <div class="panel-head">
       <h2>membros midais</h2>
-      <p class="hint">apelidos · função no grupo · marcas registradas. zero info privada.</p>
+      <p class="hint">clique no card pra ver tudo · apelidos · termos cunhados · memes</p>
     </div>
     <div class="members-grid" id="members-grid"></div>
   </section>
 
-  <!-- MÚSICAS -->
   <section id="musicas" class="panel">
     <div class="panel-head">
       <h2>rádio midas</h2>
       <p class="hint" id="music-count">carregando...</p>
-    </div>
-    <div class="player" id="player">
-      <div class="player-art">
-        <div class="vinyl"><div class="vinyl-center"></div></div>
-      </div>
-      <div class="player-info">
-        <p class="now-label">tocando</p>
-        <h3 class="now-title" id="now-title">selecione uma música</h3>
-        <p class="now-lyrics" id="now-lyrics">a letra aparece aqui quando tocar</p>
-      </div>
-      <audio id="audio" controls></audio>
     </div>
     <div class="music-search">
       <input type="text" id="music-search" placeholder="filtrar por título ou letra..." />
@@ -61,11 +48,10 @@
     <ul class="music-list" id="music-list"></ul>
   </section>
 
-  <!-- GLOSSÁRIO -->
   <section id="glossario" class="panel">
     <div class="panel-head">
       <h2>glossário midal</h2>
-      <p class="hint">vocabulário oficial do grupo. termo · significado · exemplo canônico.</p>
+      <p class="hint">vocabulário oficial do grupo · termo · significado · exemplo canônico</p>
     </div>
     <div class="gloss-search">
       <input type="text" id="gloss-search" placeholder="buscar termo..." />
@@ -73,7 +59,6 @@
     <div class="glossario" id="glossario"></div>
   </section>
 
-  <!-- MEMES -->
   <section id="memes" class="panel">
     <div class="panel-head">
       <h2>memes & rituais</h2>
@@ -83,10 +68,76 @@
   </section>
 </main>
 
+<!-- MEMBER MODAL -->
+<div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+  <article class="modal" id="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="fechar">✕</button>
+    <div class="modal-head">
+      <div class="modal-photo" id="modal-photo"></div>
+      <div class="modal-head-text">
+        <p class="modal-status" id="modal-status"></p>
+        <h2 class="modal-apelido" id="modal-apelido"></h2>
+        <p class="modal-real" id="modal-real"></p>
+        <div class="modal-aliases" id="modal-aliases"></div>
+      </div>
+    </div>
+    <div class="modal-section" id="modal-bio-section">
+      <h3>perfil midal</h3>
+      <p id="modal-bio"></p>
+    </div>
+    <div class="modal-section" id="modal-terms-section">
+      <h3>termos & gírias associadas</h3>
+      <div class="chips" id="modal-terms"></div>
+    </div>
+    <div class="modal-section" id="modal-memes-section">
+      <h3>memes & sagas</h3>
+      <div class="chips" id="modal-memes"></div>
+    </div>
+  </article>
+</div>
+
+<!-- GLOSS MODAL (quando clicar num chip) -->
+<div class="modal-backdrop" id="gloss-backdrop" aria-hidden="true">
+  <article class="modal small" id="gloss-modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="gloss-close" aria-label="fechar">✕</button>
+    <h2 class="modal-apelido" id="gloss-termo"></h2>
+    <p id="gloss-sig"></p>
+    <p class="ex" id="gloss-ex"></p>
+  </article>
+</div>
+
 <footer class="foot">
   <p>arquivo midal · <span id="member-count">—</span> membros catalogados · <span id="song-count">—</span> faixas no acervo</p>
   <p class="micro">dados extraídos do histórico curado. ban DSNR a quem espalhar info privada.</p>
 </footer>
+
+<!-- STICKY PLAYER -->
+<div class="player-bar" id="player-bar">
+  <div class="pb-art">
+    <div class="vinyl" id="pb-vinyl"><div class="vinyl-center"></div></div>
+  </div>
+  <div class="pb-info">
+    <p class="pb-label" id="pb-label">rádio midas — silêncio</p>
+    <p class="pb-title" id="pb-title">selecione uma faixa pra começar</p>
+  </div>
+  <div class="pb-controls">
+    <button class="pb-btn" id="pb-prev" aria-label="anterior" title="anterior">⏮</button>
+    <button class="pb-btn pb-play" id="pb-play" aria-label="tocar" title="tocar/pausar">▶</button>
+    <button class="pb-btn" id="pb-next" aria-label="próxima" title="próxima">⏭</button>
+  </div>
+  <div class="pb-progress-wrap">
+    <span class="pb-time" id="pb-cur">0:00</span>
+    <div class="pb-progress" id="pb-progress">
+      <div class="pb-progress-fill" id="pb-progress-fill"></div>
+    </div>
+    <span class="pb-time" id="pb-dur">0:00</span>
+  </div>
+  <div class="pb-volume">
+    <span class="pb-vol-icon" id="pb-vol-icon">🔊</span>
+    <input type="range" id="pb-vol" min="0" max="100" value="80" aria-label="volume" />
+  </div>
+  <audio id="audio" preload="metadata"></audio>
+</div>
 
 <script src="app.js"></script>
 </body>

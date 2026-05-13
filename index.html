@@ -9,7 +9,7 @@
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
 <meta name="googlebot" content="noindex, nofollow" />
 <meta name="referrer" content="no-referrer" />
-<link rel="stylesheet" href="styles.css?v=4" />
+<link rel="stylesheet" href="styles.css?v=5" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -18,6 +18,10 @@
 
 <header class="hero">
   <div class="hero-noise"></div>
+  <button class="theme-toggle" id="theme-toggle" aria-label="alternar tema" title="alternar tema claro/escuro">
+    <span class="theme-icon-dark">🌙</span>
+    <span class="theme-icon-light">☀</span>
+  </button>
   <div class="hero-inner">
     <p class="kicker">arquivo oficial · clã midas</p>
     <h1 class="title">TO MIDÃO <span class="dsnr">DSNR</span></h1>
@@ -25,6 +29,7 @@
     <nav class="tabs" id="tabs">
       <button class="tab active" data-tab="membros">MEMBROS</button>
       <button class="tab" data-tab="musicas">MÚSICAS</button>
+      <button class="tab" data-tab="videos">VÍDEOS</button>
       <button class="tab" data-tab="glossario">GLOSSÁRIO</button>
       <button class="tab" data-tab="memes">MEMES</button>
     </nav>
@@ -74,6 +79,14 @@
     <div class="glossario" id="glossario"></div>
   </section>
 
+  <section id="videos" class="panel">
+    <div class="panel-head">
+      <h2>vídeos midais</h2>
+      <p class="hint">canal do Lucca · clipes, edits e compilados do grupo</p>
+    </div>
+    <div class="video-grid" id="video-grid"></div>
+  </section>
+
   <section id="memes" class="panel">
     <div class="panel-head">
       <h2>memes & rituais</h2>
@@ -87,49 +100,49 @@
 <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
   <article class="modal" id="modal" role="dialog" aria-modal="true">
     <button class="modal-close" id="modal-close" aria-label="fechar">✕</button>
-    <div class="modal-head">
+    <aside class="modal-side">
       <div class="modal-photo" id="modal-photo"></div>
-      <div class="modal-head-text">
-        <p class="modal-status" id="modal-status"></p>
-        <h2 class="modal-apelido" id="modal-apelido"></h2>
-        <p class="modal-real" id="modal-real"></p>
-        <div class="modal-aliases" id="modal-aliases"></div>
+      <p class="modal-status" id="modal-status"></p>
+      <h2 class="modal-apelido" id="modal-apelido"></h2>
+      <p class="modal-real" id="modal-real"></p>
+      <div class="modal-aliases" id="modal-aliases"></div>
+      <div class="modal-mood" id="modal-mood-section">
+        <span class="mood-dot"></span>
+        <span id="modal-mood-text"></span>
       </div>
-    </div>
-    <div class="modal-mood" id="modal-mood-section">
-      <span class="mood-dot"></span>
-      <span id="modal-mood-text"></span>
-    </div>
-    <div class="modal-section" id="modal-bio-section">
-      <h3>perfil midal</h3>
-      <p id="modal-bio"></p>
-    </div>
-    <div class="modal-section" id="modal-topics-section">
-      <h3>tópicos recentes</h3>
-      <div class="chips" id="modal-topics"></div>
-    </div>
-    <div class="modal-section" id="modal-events-section">
-      <h3>eventos recentes</h3>
-      <ul class="event-list" id="modal-events"></ul>
-    </div>
-    <div class="modal-section discog" id="modal-discog-section">
-      <h3>discografia midal</h3>
-      <div id="modal-discog-artist-wrap">
-        <p class="discog-label">como artista</p>
-        <ul class="modal-songs" id="modal-discog-artist"></ul>
+    </aside>
+    <div class="modal-body">
+      <div class="modal-section" id="modal-bio-section">
+        <h3>perfil midal</h3>
+        <p id="modal-bio"></p>
       </div>
-      <div id="modal-discog-theme-wrap">
-        <p class="discog-label">tematizado</p>
-        <ul class="modal-songs" id="modal-discog-theme"></ul>
+      <div class="modal-section" id="modal-topics-section">
+        <h3>tópicos recentes</h3>
+        <div class="chips" id="modal-topics"></div>
       </div>
-    </div>
-    <div class="modal-section" id="modal-terms-section">
-      <h3>termos & gírias associadas</h3>
-      <div class="chips" id="modal-terms"></div>
-    </div>
-    <div class="modal-section" id="modal-memes-section">
-      <h3>memes & sagas</h3>
-      <div class="chips" id="modal-memes"></div>
+      <div class="modal-section" id="modal-events-section">
+        <h3>eventos recentes</h3>
+        <ul class="event-list" id="modal-events"></ul>
+      </div>
+      <div class="modal-section discog" id="modal-discog-section">
+        <h3>discografia midal</h3>
+        <div id="modal-discog-artist-wrap">
+          <p class="discog-label">como artista</p>
+          <ul class="modal-songs" id="modal-discog-artist"></ul>
+        </div>
+        <div id="modal-discog-theme-wrap">
+          <p class="discog-label">tematizado</p>
+          <ul class="modal-songs" id="modal-discog-theme"></ul>
+        </div>
+      </div>
+      <div class="modal-section" id="modal-terms-section">
+        <h3>termos & gírias associadas</h3>
+        <div class="chips" id="modal-terms"></div>
+      </div>
+      <div class="modal-section" id="modal-memes-section">
+        <h3>memes & sagas</h3>
+        <div class="chips" id="modal-memes"></div>
+      </div>
     </div>
   </article>
 </div>
@@ -189,6 +202,6 @@
   <audio id="audio" preload="metadata"></audio>
 </div>
 
-<script src="app.js?v=4"></script>
+<script src="app.js?v=5"></script>
 </body>
 </html>

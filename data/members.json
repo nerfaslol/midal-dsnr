@@ -880,6 +880,19 @@
       "memesRelated": [],
       "discografiaArtist": [],
       "discografiaTheme": []
+    },
+    {
+      "nome": "Nenio",
+      "apelido": "Nenio",
+      "apelidos": ["nenio", "nenioooo"],
+      "bio": "Plantel core, parceiro do Nathan desde 2023. Cunhou o verbo \"forgar\" — pegar/conseguir sem pagar (forgar um mc, forgar um pedido). Companhia frequente do Italo, Xnas, Goncs.",
+      "photo": "img/members/Nenio.jpg",
+      "status": "ativo",
+      "isAdmin": false,
+      "glossarioRelated": ["forgar"],
+      "memesRelated": [],
+      "discografiaArtist": [],
+      "discografiaTheme": []
     }
   ]
 }

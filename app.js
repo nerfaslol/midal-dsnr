@@ -8,6 +8,12 @@ const state = {
   musicasByFile: {},
   glossario: [],
   memes: [],
+  videos: [
+    { id: '0MnQdyjgFY8', title: '9' },
+    { id: '9Pig8iB5wek', title: 'O TREM MAIS CARO' },
+    { id: 'o9G-RVzMRbg', title: 'Wiz Khalifa - See You Again ft. Charlie Puth [COMPILADO TO MIDAS]' },
+    { id: 'Tvs0T4vUn8I', title: 'Rock Lee vs Gaara [MIDAS VERSION]' }
+  ],
   currentIdx: -1,
   filteredMembers: [],
   memberFilter: 'todos',
@@ -17,6 +23,26 @@ const state = {
   repeat: 'off',  // off, one, all
   shuffleQueue: [],
 };
+
+// ===== THEME TOGGLE =====
+function applyTheme(theme) {
+  if (theme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+  else document.documentElement.removeAttribute('data-theme');
+}
+(function initTheme() {
+  const saved = localStorage.getItem('midal-theme');
+  if (saved === 'light') applyTheme('light');
+})();
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = $('#theme-toggle');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+    const next = isLight ? 'dark' : 'light';
+    applyTheme(next);
+    localStorage.setItem('midal-theme', next);
+  });
+});
 
 // ===== TABS =====
 $$('.tab').forEach(t => {
@@ -573,6 +599,26 @@ function renderMemes() {
   `).join('');
 }
 
+// ===== VÍDEOS =====
+function renderVideos() {
+  const grid = $('#video-grid');
+  if (!grid) return;
+  grid.innerHTML = state.videos.map(v => `
+    <article class="video-card">
+      <div class="video-embed">
+        <iframe src="https://www.youtube.com/embed/${escapeHtml(v.id)}"
+                title="${escapeHtml(v.title)}"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+      <h3>${escapeHtml(v.title)}</h3>
+      <a class="video-link" href="https://www.youtube.com/watch?v=${escapeHtml(v.id)}" target="_blank" rel="noopener">abrir no youtube ↗</a>
+    </article>
+  `).join('');
+}
+
 // ===== LOAD =====
 async function load() {
   try {
@@ -592,6 +638,7 @@ async function load() {
     renderMusic();
     renderGlossario();
     renderMemes();
+    renderVideos();
     updateNavButtons();
   } catch (e) {
     console.error('load failed', e);

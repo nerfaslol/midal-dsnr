@@ -1,0 +1,343 @@
+{
+  "members": [
+    {
+      "key": "nerfin",
+      "nome": "Gabriel",
+      "apelido": "nerfin",
+      "apelidos": [
+        "nerfas",
+        "nerf",
+        "nerfinho",
+        "doguxo"
+      ],
+      "bio": "Operador do bot midal (claudinho). Divinópolis/MG. Cunhou \"mandioca on\" — divulgação de ranqueada de LoL. Voca registrado: slc, BOM DIA DOGUXO, FALA O GORILLA, PORRA.",
+      "photo": "img/members/153656884260991_lid.jpg",
+      "confirmed": true,
+      "status": "operador"
+    },
+    {
+      "key": "Lucca",
+      "nome": "Lucca Massote (Lucca Garcia Diniz Massote)",
+      "apelido": "Frogo",
+      "apelidos": [
+        "Frogo",
+        "Frodo?"
+      ],
+      "bio": "Top 1 do grupo (13k msgs). Motor da conversa. Principal interlocutor do nerfin. Faz enquetes. Voca: muie, paizin, Nu",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "scnogaY",
+      "nome": "Yago",
+      "apelido": "Gonquio",
+      "apelidos": [
+        "Gonquio",
+        "Yago",
+        "Yago Nunes"
+      ],
+      "bio": "Top 2. Faz disparos via API oficial WhatsApp (marketing). Origem da piada Disparos 100% White e ministro da saúde",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Gabriel Castro",
+      "nome": "Gabriel Castro",
+      "apelido": "Pixas",
+      "apelidos": [
+        "Pixas",
+        "Nebix"
+      ],
+      "bio": "Top 3. Provoca direto. Sítio nebixal é dele. NÃO confundir com nerfin (Gabriel)",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Aquiles Teodoro",
+      "nome": "Aquiles Teodoro",
+      "apelido": "Quilim",
+      "apelidos": [
+        "Quilim"
+      ],
+      "bio": "Top 4. Criativo nas msgs longas (paródias comerciais). Foca em comida",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "olatÍ",
+      "nome": "Italo",
+      "apelido": "Sirob",
+      "apelidos": [
+        "Sirob",
+        "Boris",
+        "Xoris",
+        "Xororó",
+        "Italo"
+      ],
+      "bio": "Top 5. Admin do grupo. Mestre dos @Meta AI /imagine. Saga mitológica do nome dele é zoeira coletiva",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Henrique",
+      "nome": "Henrique APYR",
+      "apelido": "APYR",
+      "apelidos": [
+        "APYR",
+        "APYR9",
+        "entidade demoníaca",
+        "Henrique Pardini"
+      ],
+      "bio": "Top 6. Faz listas (kart, festas). NÃO confundir com Henrique Gontijo (Chitão). PushName: Henrique Pardini",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Sequelado",
+      "nome": "Thales",
+      "apelido": "Sagui",
+      "apelidos": [
+        "Sagui",
+        "Xtales",
+        "Xtalis",
+        "Thales",
+        "Thales Amorim"
+      ],
+      "bio": "Top 7. Crônicas absurdas, narrativa satírica. PushName: Thales Amorim",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Gustavo Cinza",
+      "nome": "Gustavo (Cinza)",
+      "apelido": "Gustavo (Cinza)",
+      "apelidos": [],
+      "bio": "Top 8. Entrou em 25/01/2026. Reativo, exagera com kakakakak lineares",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "tiago",
+      "nome": "tiago",
+      "apelido": "Rosinha",
+      "apelidos": [
+        "Rosinha",
+        "Rosinha Nebulosa"
+      ],
+      "bio": "Top 9. Estilo peculiar — mensagens em russo aleatório, texto onomatopeico",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Zé Pagão",
+      "nome": "Zé Pagão",
+      "apelido": "Nathan Bresoline",
+      "apelidos": [
+        "Nathan Bresoline",
+        "Nathan"
+      ],
+      "bio": "Top 10. CAPS pra reação forte (MORRI, GUANDO, CHAPANDO LEAN). Jiu-jitsu",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Jord",
+      "nome": "Lucas Nenino / Stênio",
+      "apelido": "Lucas Nenino",
+      "apelidos": [
+        "Lucas Nenino",
+        "Stenio"
+      ],
+      "bio": "Top 11. Comentários secos. Joga TFT",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Filipe Souza",
+      "nome": "Filipe Souza",
+      "apelido": "Curralo",
+      "apelidos": [
+        "Curralo",
+        "Dr. Filipe Souza"
+      ],
+      "bio": "Top 12. Organizador. Aniversário curralal / Sítio curralal / Mansão curralal são dele",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Pedroga",
+      "nome": "(BH)",
+      "apelido": "(BH)",
+      "apelidos": [],
+      "bio": "Top 13. DDD 31 (BH, fora do eixo). Narrativas escatológicas",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Rato",
+      "nome": "João Vitor",
+      "apelido": "Ratinho",
+      "apelidos": [
+        "Ratinho",
+        "DIABO",
+        "João Victor Cunha"
+      ],
+      "bio": "Top 14. CAPS top abs (24%). Agressivo, rápido. Provoca. TFT. PushName: João Victor Cunha",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "João Pedro Melo",
+      "nome": "João Pedro Melo",
+      "apelido": "Falcão do complexo",
+      "apelidos": [
+        "Falcão do complexo",
+        "Pedro"
+      ],
+      "bio": "Top 15. Narrativa elaborada. 'Pedro' é como o pushName aparece no grupo. NÃO confundir com Pedroga (BH, DDD 31)",
+      "photo": "img/members/11317356306510_lid.jpg",
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Gustavo Santos",
+      "nome": "Gustavo (Preto)",
+      "apelido": "Gustavo Preto",
+      "apelidos": [
+        "Gustavo Preto",
+        "boneca",
+        "black doll"
+      ],
+      "bio": "Top 16. Ex-membro do midas. Amigo de todo mundo. Apelidado 'boneca' / 'black doll'. Saiu/foi removido do grupo (citado em 08/05/2026 como ex-membro). Diferente do Gustavo Cinza",
+      "photo": null,
+      "confirmed": true,
+      "status": "ex-membro"
+    },
+    {
+      "key": "Henrique Gontijo",
+      "nome": "Henrique Gontijo",
+      "apelido": "Chitão",
+      "apelidos": [
+        "Chitão",
+        "Chitas"
+      ],
+      "bio": "Top 17. Mensagens mais longas do top. Reflexivo. NÃO é o APYR",
+      "photo": "img/members/84301634904217_lid.jpg",
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "pamsmela",
+      "nome": "Pâmela (irmã do Yago/scnogaY/Gonquio)",
+      "apelido": "pamsmela",
+      "apelidos": [
+        "pamsmela",
+        "pamela"
+      ],
+      "bio": "Irmã do Yago. NÃO é membro do grupo. Vira alvo de zoeira pra revidar quando o Yago zoa alguém — bordão útil pra contra-zoeira. Ex: Yago manda pedido absurdo no bot → bot vira contra ele citando pamsmela.",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "zerius",
+      "nome": "Zerius",
+      "apelido": "🐺",
+      "apelidos": [
+        "🐺",
+        "zerius bus"
+      ],
+      "bio": "PushName lobo 🐺. Reaparece esporadicamente e provoca direto. Voltou em 08/05/2026 ('claudinho olha quem apareceu, a merda do zerius!') e zoou o bot com 'explanou o raro', 'fake print pra proteger seu criador claudete', 'Claudete, vc é cuiudo ou zé pagao?'",
+      "photo": null,
+      "confirmed": true,
+      "status": "ativo"
+    },
+    {
+      "key": "Mafero",
+      "nome": "Mafero (nome real pendente)",
+      "apelido": "Mafero (nome real pendente)",
+      "apelidos": [],
+      "bio": "Ex-membro LENDÁRIO do grupo (2023-2024). Múltiplas referências canônicas: 'O mafero é imbanível' (Lucca 06/2023), 'Conexão mafero nebex' (Italo 05/2023), 'sinto o mafero muito ausente ultimamente' (Italo 06/2023), 'mafero herdeiro?', 'tem um hd de 2 tb com todas as mídias e conversas do midas pra acabar com a vida de cada um aqui' (Lucca 04/2023). Tem ENCICLOPÉDIA visual ('MAFERO INVOKED' do APYR). Lucca lamentou em 12/05/2026: 'Aqui jaz o mafero / Depois que ele foi removido esse grupo acabou'. Data exata da remoção e nome real ainda pendentes — duvidas.md.",
+      "photo": null,
+      "confirmed": true,
+      "status": "lendario"
+    },
+    {
+      "key": "Xnas",
+      "nome": "Xnas (identidade civil pendente)",
+      "apelido": "xNas",
+      "apelidos": [
+        "xNas"
+      ],
+      "bio": "Membro ATIVO recorrente desde 03/2023 — 441 menções no _chat.txt + 18881 ocorrências totais. Última atividade conhecida 13/04/2026. Marcas registradas: 'maciin moiadin' (avaliação de maconha), 'pretoso', 'macarrão diban'. Plantel core do grupo. Companhia frequente do Nathan, Nenio, Italo, Goncs. PushName real e identidade civil pendentes — pergunta pro user na próxima rodada.",
+      "photo": null,
+      "confirmed": false,
+      "status": "ativo"
+    },
+    {
+      "key": "Rocha",
+      "nome": "Rocha (identidade civil pendente)",
+      "apelido": "Rocha Trader",
+      "apelidos": [
+        "Rocha Trader"
+      ],
+      "bio": "Membro do grupo desde 03/2023 — 1343 mensagens. Estilo de fala distinto ('Ce escreveu igual o @Rocha Trader, tendi nada!' — Lucca). Citado pelo Italo: 'dibereu dms o rocha ir pra um banco'. Atividade variável. PushName 'Rocha Trader' confirmado. Identidade civil pendente.",
+      "photo": null,
+      "confirmed": false,
+      "status": "ativo"
+    },
+    {
+      "key": "Joni",
+      "nome": "Joni (provavelmente diferente do Henrique Gontijo/Chitão)",
+      "apelido": "Joni Gontijo",
+      "apelidos": [
+        "Joni Gontijo"
+      ],
+      "bio": "Membro ativo desde 03/2023. Estilo de fala CURTO/AGRESSIVO ('Kakakakakakakka', 'saiu do prumo', 'tava full fumante') — distinto do Henrique Gontijo (mensagens longas reflexivas). 171 menções como 'Joni Gontijo'. Atualmente apelido 'Joni Gontijo' está duplicado no seed:Henrique Gontijo (peers). Sobrenome compartilhado sugere parentesco (irmão do Chitão?), mas são DUAS pessoas distintas. PushName real e identidade civil pendentes. Verificar próxima sessão se ainda há overlap no peers/_index.json",
+      "photo": null,
+      "confirmed": false,
+      "status": "ativo"
+    },
+    {
+      "key": "Iodo",
+      "nome": "Iodo (identidade civil pendente)",
+      "apelido": "Iodo (identidade civil pendente)",
+      "apelidos": [],
+      "bio": "Membro ativo do grupo. Italo cita recorrentemente desde 04/2023: 'Iodo carregando o xnas', 'Iodo nunca mais foi o mesmo' (repete em 03/2024). Histórico: 'Iodo deixou de ir no vintage pra trabalhar no feriado', 'Iodo tá chei das amiga memo' (JP 07/2024). Compõe o trio fictício IFM (Iodo Frodo Meny) com Lucca. Vida pessoal acompanhada pelo grupo. PushName real e identidade civil pendentes.",
+      "photo": null,
+      "confirmed": false,
+      "status": "ativo"
+    },
+    {
+      "key": "Meny",
+      "nome": "Meny (provavelmente Meneca/Diogo Menezes — baixa confiança)",
+      "apelido": "Meneca?",
+      "apelidos": [
+        "Meneca?"
+      ],
+      "bio": "3º membro do trio fictício IFM (Iodo Frodo Meny). Apelido só aparece dentro de 'IFM'. Possível variante: 'Meneca' (Italo 20/01/2025: 'Conexão Meneca / Pixeca = Meneca'). 'Diogo Menezes' citado por APYR 14/04/2026 — pode ser identidade civil. Evidência fraca, low confidence. Aguardando confirmação do user na próxima rodada.",
+      "photo": null,
+      "confirmed": false,
+      "status": "ativo"
+    }
+  ],
+  "unknownPhotos": [
+    "76484794429670_lid",
+    "9676628431050_lid",
+    "153656884260991_lid"
+  ]
+}

@@ -209,7 +209,7 @@ function openMemberModal(idx) {
   const songRow = (file) => {
     const s = state.musicasByFile[file];
     if (!s) return '';
-    return `<li data-file="${escapeHtml(file)}"><span class="play-icon">▶</span><span>${escapeHtml(s.titulo)}</span><span class="dur">${fmtDur(s.duracao_s)}</span></li>`;
+    return `<li data-file="${escapeHtml(file)}"><span class="play-icon" aria-hidden="true">▸</span><span>${escapeHtml(s.titulo)}</span><span class="dur">${fmtDur(s.duracao_s)}</span></li>`;
   };
   if (m.discografiaArtist?.length) {
     artistEl.innerHTML = m.discografiaArtist.map(songRow).join('');
@@ -279,7 +279,8 @@ $('#gloss-close').addEventListener('click', closeGlossModal);
 $('#gloss-backdrop').addEventListener('click', e => { if (e.target === $('#gloss-backdrop')) closeGlossModal(); });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
-    if ($('#lyrics-panel').classList.contains('open')) closeLyrics();
+    if ($('#video-modal').classList.contains('open')) closeVideoModal();
+    else if ($('#lyrics-panel').classList.contains('open')) closeLyrics();
     else if ($('#gloss-backdrop').classList.contains('open')) closeGlossModal();
     else if ($('#modal-backdrop').classList.contains('open')) closeMemberModal();
   }
@@ -306,7 +307,7 @@ function renderMusic(filter = '') {
   const renderItem = m => `
     <li class="music-item ${m.file === currentFile ? 'playing' : ''}" data-file="${escapeHtml(m.file)}">
       <div class="title-wrap">
-        <span class="play-icon">▶</span>
+        <span class="play-icon" aria-hidden="true">▸</span>
         <span class="t-text">${escapeHtml(m.titulo)}</span>
       </div>
       <span class="dur">${fmtDur(m.duracao_s)}</span>
@@ -467,17 +468,18 @@ shuffleBtn.addEventListener('click', () => {
 });
 
 const REPEAT_CYCLE = ['off', 'all', 'one'];
-const REPEAT_ICON = { off: '🔁', all: '🔁', one: '🔂' };
+const repeatBadge = $('#pb-repeat-badge');
 repeatBtn.addEventListener('click', () => {
   const i = REPEAT_CYCLE.indexOf(state.repeat);
   state.repeat = REPEAT_CYCLE[(i + 1) % REPEAT_CYCLE.length];
-  repeatBtn.textContent = REPEAT_ICON[state.repeat];
   repeatBtn.classList.toggle('active', state.repeat !== 'off');
+  repeatBtn.classList.toggle('repeat-one', state.repeat === 'one');
+  if (repeatBadge) repeatBadge.hidden = state.repeat !== 'one';
   repeatBtn.title = `repeat: ${state.repeat}`;
 });
 
-audio.addEventListener('play', () => { playBtn.textContent = '⏸'; playerBar.classList.add('playing'); });
-audio.addEventListener('pause', () => { playBtn.textContent = '▶'; playerBar.classList.remove('playing'); });
+audio.addEventListener('play', () => { playerBar.classList.add('playing'); });
+audio.addEventListener('pause', () => { playerBar.classList.remove('playing'); });
 audio.addEventListener('ended', () => {
   const idx = pickNextIdx();
   if (idx >= 0) playByIdx(idx);
@@ -507,23 +509,27 @@ progBar.addEventListener('click', e => {
 // volume
 const volSlider = $('#pb-vol');
 const volIcon = $('#pb-vol-icon');
+const volWrap = volIcon.parentElement;
+function updateVolIcon() {
+  const lvl = audio.volume === 0 ? 'mute' : audio.volume < 0.5 ? 'mid' : 'high';
+  volWrap.setAttribute('data-vol', lvl);
+}
 volSlider.addEventListener('input', e => {
   state.volume = parseInt(e.target.value, 10) / 100;
   audio.volume = state.volume;
-  volIcon.textContent = state.volume === 0 ? '🔇' : state.volume < 0.5 ? '🔉' : '🔊';
+  updateVolIcon();
 });
 volIcon.addEventListener('click', () => {
   if (audio.volume > 0) {
     state.volume = 0;
     audio.volume = 0;
     volSlider.value = 0;
-    volIcon.textContent = '🔇';
   } else {
     state.volume = 0.8;
     audio.volume = 0.8;
     volSlider.value = 80;
-    volIcon.textContent = '🔊';
   }
+  updateVolIcon();
 });
 
 // keyboard shortcuts
@@ -603,21 +609,55 @@ function renderMemes() {
 function renderVideos() {
   const grid = $('#video-grid');
   if (!grid) return;
-  grid.innerHTML = state.videos.map(v => `
-    <article class="video-card">
-      <div class="video-embed">
-        <iframe src="https://www.youtube.com/embed/${escapeHtml(v.id)}"
-                title="${escapeHtml(v.title)}"
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  grid.innerHTML = state.videos.map((v, idx) => `
+    <article class="video-card" data-idx="${idx}" role="button" tabindex="0" aria-label="tocar ${escapeHtml(v.title)}">
+      <div class="video-thumb">
+        <img src="https://i.ytimg.com/vi/${escapeHtml(v.id)}/hqdefault.jpg"
+             alt="${escapeHtml(v.title)}"
+             loading="lazy"
+             referrerpolicy="no-referrer" />
+        <span class="video-play" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+        </span>
       </div>
       <h3>${escapeHtml(v.title)}</h3>
-      <a class="video-link" href="https://www.youtube.com/watch?v=${escapeHtml(v.id)}" target="_blank" rel="noopener">abrir no youtube ↗</a>
     </article>
   `).join('');
+
+  $$('.video-card', grid).forEach(card => {
+    const idx = parseInt(card.dataset.idx, 10);
+    card.addEventListener('click', () => openVideoModal(idx));
+    card.addEventListener('keypress', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openVideoModal(idx); }
+    });
+  });
 }
+
+// ===== VIDEO MODAL =====
+const videoModal = $('#video-modal');
+const videoIframeWrap = $('#video-iframe-wrap');
+const videoModalTitle = $('#video-modal-title');
+const videoModalYt = $('#video-modal-yt');
+
+function openVideoModal(idx) {
+  const v = state.videos[idx];
+  if (!v) return;
+  // pausa rádio se estiver tocando, evita áudio sobreposto
+  if (!audio.paused) audio.pause();
+  const url = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?autoplay=1&modestbranding=1&rel=0&playsinline=1&color=white`;
+  videoIframeWrap.innerHTML = `<iframe src="${url}" title="${escapeHtml(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="no-referrer"></iframe>`;
+  videoModalTitle.textContent = v.title;
+  videoModalYt.href = `https://www.youtube.com/watch?v=${encodeURIComponent(v.id)}`;
+  videoModal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeVideoModal() {
+  videoModal.classList.remove('open');
+  videoIframeWrap.innerHTML = '';  // mata o iframe pra parar o vídeo
+  document.body.style.overflow = '';
+}
+$('#video-modal-close').addEventListener('click', closeVideoModal);
+videoModal.addEventListener('click', e => { if (e.target === videoModal) closeVideoModal(); });
 
 // ===== LOAD =====
 async function load() {

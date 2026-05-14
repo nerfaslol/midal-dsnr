@@ -9,7 +9,7 @@
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
 <meta name="googlebot" content="noindex, nofollow" />
 <meta name="referrer" content="no-referrer" />
-<link rel="stylesheet" href="styles.css?v=5" />
+<link rel="stylesheet" href="styles.css?v=6" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -19,8 +19,8 @@
 <header class="hero">
   <div class="hero-noise"></div>
   <button class="theme-toggle" id="theme-toggle" aria-label="alternar tema" title="alternar tema claro/escuro">
-    <span class="theme-icon-dark">🌙</span>
-    <span class="theme-icon-light">☀</span>
+    <svg class="theme-icon theme-icon-dark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    <svg class="theme-icon theme-icon-light" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
   </button>
   <div class="hero-inner">
     <p class="kicker">arquivo oficial · clã midas</p>
@@ -147,6 +147,20 @@
   </article>
 </div>
 
+<!-- VIDEO MODAL -->
+<div class="video-modal" id="video-modal" aria-hidden="true" role="dialog" aria-modal="true">
+  <button class="video-modal-close" id="video-modal-close" aria-label="fechar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <div class="video-modal-frame" id="video-modal-frame">
+    <div class="video-iframe-wrap" id="video-iframe-wrap"></div>
+    <div class="video-modal-meta">
+      <h3 class="video-modal-title" id="video-modal-title"></h3>
+      <a class="video-modal-yt" id="video-modal-yt" href="#" target="_blank" rel="noopener">abrir no youtube ↗</a>
+    </div>
+  </div>
+</div>
+
 <!-- GLOSS MODAL -->
 <div class="modal-backdrop" id="gloss-backdrop" aria-hidden="true">
   <article class="modal small" id="gloss-modal" role="dialog" aria-modal="true">
@@ -181,11 +195,23 @@
     <p class="pb-title" id="pb-title">selecione uma faixa pra começar</p>
   </div>
   <div class="pb-controls">
-    <button class="pb-btn pb-mode" id="pb-shuffle" aria-label="shuffle" title="shuffle">🔀</button>
-    <button class="pb-btn" id="pb-prev" aria-label="anterior" title="anterior">⏮</button>
-    <button class="pb-btn pb-play" id="pb-play" aria-label="tocar" title="tocar/pausar">▶</button>
-    <button class="pb-btn" id="pb-next" aria-label="próxima" title="próxima">⏭</button>
-    <button class="pb-btn pb-mode" id="pb-repeat" aria-label="repeat" title="repeat">🔁</button>
+    <button class="pb-btn pb-mode" id="pb-shuffle" aria-label="shuffle" title="shuffle">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+    </button>
+    <button class="pb-btn" id="pb-prev" aria-label="anterior" title="anterior">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="20 19 9 12 20 5 20 19"/><rect x="4" y="5" width="2.5" height="14" rx="1"/></svg>
+    </button>
+    <button class="pb-btn pb-play" id="pb-play" aria-label="tocar" title="tocar/pausar">
+      <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>
+      <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/></svg>
+    </button>
+    <button class="pb-btn" id="pb-next" aria-label="próxima" title="próxima">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="4 5 15 12 4 19 4 5"/><rect x="17.5" y="5" width="2.5" height="14" rx="1"/></svg>
+    </button>
+    <button class="pb-btn pb-mode" id="pb-repeat" aria-label="repeat" title="repeat">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+      <span class="pb-mode-badge" id="pb-repeat-badge" aria-hidden="true">1</span>
+    </button>
   </div>
   <div class="pb-progress-wrap">
     <span class="pb-time" id="pb-cur">0:00</span>
@@ -195,13 +221,17 @@
     <span class="pb-time" id="pb-dur">0:00</span>
   </div>
   <button class="pb-btn pb-lyrics" id="pb-lyrics" aria-label="ver letra" title="ver letra" disabled>letra</button>
-  <div class="pb-volume">
-    <span class="pb-vol-icon" id="pb-vol-icon">🔊</span>
+  <div class="pb-volume" data-vol="high">
+    <button class="pb-vol-icon" id="pb-vol-icon" aria-label="mute/unmute" title="mute/unmute">
+      <svg class="icon-vol-high" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+      <svg class="icon-vol-mid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+      <svg class="icon-vol-mute" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" fill="currentColor"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+    </button>
     <input type="range" id="pb-vol" min="0" max="100" value="80" aria-label="volume" />
   </div>
   <audio id="audio" preload="metadata"></audio>
 </div>
 
-<script src="app.js?v=5"></script>
+<script src="app.js?v=6"></script>
 </body>
 </html>

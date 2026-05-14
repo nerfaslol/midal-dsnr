@@ -645,7 +645,7 @@ function openVideoModal(idx) {
   // pausa rádio se estiver tocando, evita áudio sobreposto
   if (!audio.paused) audio.pause();
   const url = `https://www.youtube.com/embed/${encodeURIComponent(v.id)}?autoplay=1&modestbranding=1&rel=0&playsinline=1`;
-  videoIframeWrap.innerHTML = `<iframe src="${url}" title="${escapeHtml(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="no-referrer"></iframe>`;
+  videoIframeWrap.innerHTML = `<iframe src="${url}" title="${escapeHtml(v.title)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" referrerpolicy="no-referrer"></iframe>`;
   videoModalTitle.textContent = v.title;
   videoModalYt.href = `https://www.youtube.com/watch?v=${encodeURIComponent(v.id)}`;
   videoModal.classList.add('open');

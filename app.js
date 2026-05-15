@@ -490,6 +490,7 @@ audio.addEventListener('timeupdate', () => {
     progFill.style.width = pct + '%';
     $('#pb-cur').textContent = fmtDur(audio.currentTime);
   }
+  if (state.lyricsTimed) syncLyrics();
 });
 audio.addEventListener('loadedmetadata', () => {
   $('#pb-dur').textContent = fmtDur(audio.duration);
@@ -565,12 +566,58 @@ function closeLyrics() {
 }
 function updateLyrics(m) {
   $('#lyrics-title').textContent = m.titulo;
-  // transcricao tem pouco quebra de linha; quebrar por frases
-  const body = m.transcricao
-    .replace(/\.\s+/g, '.\n')
-    .replace(/([!?])\s+/g, '$1\n')
-    .replace(/\s{2,}/g, '\n');
-  $('#lyrics-body').textContent = body;
+  const body = $('#lyrics-body');
+  state.lyricsActive = null;
+  if (Array.isArray(m.lyricsTimed) && m.lyricsTimed.length) {
+    // modo karaoke: linhas individuais com data-t
+    state.lyricsTimed = m.lyricsTimed;
+    body.classList.add('karaoke');
+    body.innerHTML = m.lyricsTimed.map((ln, i) =>
+      `<div class="lyr-line" data-i="${i}" data-t="${ln.t}">${escapeHtml(ln.text)}</div>`
+    ).join('');
+    // jump no clique
+    $$('.lyr-line', body).forEach(el => {
+      el.addEventListener('click', () => {
+        const t = parseFloat(el.dataset.t);
+        if (isFinite(t)) audio.currentTime = t;
+      });
+    });
+    syncLyrics();
+  } else {
+    state.lyricsTimed = null;
+    body.classList.remove('karaoke');
+    const txt = (m.transcricao || '')
+      .replace(/\.\s+/g, '.\n')
+      .replace(/([!?])\s+/g, '$1\n')
+      .replace(/\s{2,}/g, '\n');
+    body.textContent = txt;
+  }
+}
+
+function syncLyrics() {
+  if (!state.lyricsTimed || !lyrPanel.classList.contains('open')) return;
+  const t = audio.currentTime;
+  const lines = state.lyricsTimed;
+  let idx = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].t <= t) idx = i; else break;
+  }
+  if (idx === state.lyricsActive) return;
+  state.lyricsActive = idx;
+  const body = $('#lyrics-body');
+  const active = body.querySelector('.lyr-line.active');
+  if (active) active.classList.remove('active');
+  if (idx >= 0) {
+    const el = body.querySelector(`.lyr-line[data-i="${idx}"]`);
+    if (el) {
+      el.classList.add('active');
+      // scroll into view (smooth, centro)
+      const bodyRect = body.getBoundingClientRect();
+      const elRect = el.getBoundingClientRect();
+      const offset = elRect.top - bodyRect.top - bodyRect.height / 2 + elRect.height / 2;
+      body.scrollBy({ top: offset, behavior: 'smooth' });
+    }
+  }
 }
 lyrBtn.addEventListener('click', () => {
   if (lyrBtn.disabled) return;

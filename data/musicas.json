@@ -60,7 +60,233 @@
     "titulo": "CHT  /  FAMÍLIA PRÊMIOS",
     "duracao_s": 199,
     "transcricao": "Hoje tem comploração e não é pra seleção do lado de canta em qualquer sombra Dá tudo recheado no pataco, por isso que ninguém ombra Vou tratar, tá? O processo seletivo abril vem pra família Peños Fil Aqui você pode sortear Finoceral, com o processo seletivo abril vem pra família Peños Fil Aqui você pode sortear E a liberdade financeira alcançar O processo eletivo abriu Entre a família, premi o sio Aqui você pode sortear O processo eletivo abriu Entre a família, premi o sio Aqui você pode sortear E a liberdade financeira alcançar Oh, oh, oh, oh Leuzinho prêmios Babo prêmios Javinho prêmios O meu pouca sombra louxarou Leozinho prêmios, babão prêmios Lavinho prêmios, o meu pouca sombra louxarou Hoje tem convocação e não é pra seleção Do lado de cada em pouca sombra Tá tudo recheado no patarco por isso que ninguém lombra Tata, o processo seletivo abriu Lembra a família prêmios fio Aqui você pode sortear E a liberdade financeira alcançar Oh, da-ta-ta O processo seletivo abriu Vem pra família, preme o fio Aqui você pode sortear E a liberdade financeira alcançar Oh, leozinho prêmios Flávios prêmios O meu polka som balão charô Oh, leozinho prêmios Flávios prêmios O meu pouca sombrou, xaro Oh, oh, oh, oh",
-    "artistLabel": "Chitão"
+    "artistLabel": "Chitão",
+    "lyricsTimed": [
+      {
+        "t": 0.24,
+        "text": "Hoje tem convocação, e não é pra seleção"
+      },
+      {
+        "t": 3.5,
+        "text": "do lado de cá tem pouca sombra"
+      },
+      {
+        "t": 6,
+        "text": "Tá tudo recheado no pataco"
+      },
+      {
+        "t": 8,
+        "text": "por isso que ninguém lombra"
+      },
+      {
+        "t": 10.2,
+        "text": "Ô, ô, tra, ta, ta"
+      },
+      {
+        "t": 13.56,
+        "text": "O processo seletivo abriu"
+      },
+      {
+        "t": 15.7,
+        "text": "vem pra família prêmios fio"
+      },
+      {
+        "t": 18.36,
+        "text": "Aqui você pode sortear"
+      },
+      {
+        "t": 20.5,
+        "text": "e a liberdade financeira alcançar"
+      },
+      {
+        "t": 22.02,
+        "text": "Ô, ô, tra, ta, ta"
+      },
+      {
+        "t": 25,
+        "text": "O processo seletivo abriu"
+      },
+      {
+        "t": 28,
+        "text": "vem pra família prêmios fio"
+      },
+      {
+        "t": 31.58,
+        "text": "Aqui você pode sortear"
+      },
+      {
+        "t": 34.34,
+        "text": "e a liberdade financeira alcançar"
+      },
+      {
+        "t": 37.46,
+        "text": "Ô, ô, ô, ô, tra, ta, ta"
+      },
+      {
+        "t": 44,
+        "text": "Ô, ô, ô, ô"
+      },
+      {
+        "t": 51.62,
+        "text": "O processo seletivo abriu, vem pra família prêmios fio"
+      },
+      {
+        "t": 54.19,
+        "text": "Aqui você pode sortear"
+      },
+      {
+        "t": 56.28,
+        "text": "e a liberdade financeira alcançar"
+      },
+      {
+        "t": 60,
+        "text": "Ô, ô, tra, ta, ta"
+      },
+      {
+        "t": 66,
+        "text": "Ô, ô, ô, ô, pra catar"
+      },
+      {
+        "t": 74,
+        "text": "Hum, hum"
+      },
+      {
+        "t": 81.42,
+        "text": "O processo seletivo abriu, vem pra família prêmios fio"
+      },
+      {
+        "t": 83.76,
+        "text": "Aqui você pode sortear"
+      },
+      {
+        "t": 86.32,
+        "text": "e a liberdade financeira alcançar"
+      },
+      {
+        "t": 89.34,
+        "text": "Ô, ô"
+      },
+      {
+        "t": 91.54,
+        "text": "Leozinho prêmios, Babão prêmios"
+      },
+      {
+        "t": 94.02,
+        "text": "Flavinho prêmios, o meu pouca sombra lancharou"
+      },
+      {
+        "t": 98.5,
+        "text": "Ô, ô"
+      },
+      {
+        "t": 100.65,
+        "text": "Leozinho prêmios, Babão prêmios, Flavinho prêmios"
+      },
+      {
+        "t": 104.53,
+        "text": "o meu pouca sombra lancharou"
+      },
+      {
+        "t": 108,
+        "text": "Tra, ta, ta"
+      },
+      {
+        "t": 111.89,
+        "text": "Hoje tem convocação e não é pra seleção"
+      },
+      {
+        "t": 115.55,
+        "text": "do lado de cá tem pouca sombra"
+      },
+      {
+        "t": 117.89,
+        "text": "tá tudo recheado no pataco"
+      },
+      {
+        "t": 120.33,
+        "text": "por isso que ninguém lombra"
+      },
+      {
+        "t": 122.19,
+        "text": "Ô, ô, tra, ta, ta"
+      },
+      {
+        "t": 126.17,
+        "text": "O processo seletivo abriu"
+      },
+      {
+        "t": 128.89,
+        "text": "vem pra família prêmios fio"
+      },
+      {
+        "t": 131.51,
+        "text": "Aqui você pode sortear"
+      },
+      {
+        "t": 133.75,
+        "text": "e a liberdade financeira alcançar"
+      },
+      {
+        "t": 137.5,
+        "text": "Ô, ô, tra, ta, ta"
+      },
+      {
+        "t": 145,
+        "text": "Ô, ô, ô, ô, pra catar"
+      },
+      {
+        "t": 156.65,
+        "text": "O processo seletivo abriu, vem pra família prêmios fio"
+      },
+      {
+        "t": 160.69,
+        "text": "Aqui você pode sortear"
+      },
+      {
+        "t": 163.69,
+        "text": "e a liberdade financeira alcançar"
+      },
+      {
+        "t": 166.63,
+        "text": "Ô, ô"
+      },
+      {
+        "t": 168.5,
+        "text": "Leozinho prêmios"
+      },
+      {
+        "t": 170.21,
+        "text": "Babão prêmios"
+      },
+      {
+        "t": 171.45,
+        "text": "Flavinho prêmios"
+      },
+      {
+        "t": 172.85,
+        "text": "o meu pouca sombra lancharou"
+      },
+      {
+        "t": 175.59,
+        "text": "Ô, ô — Leozinho prêmios"
+      },
+      {
+        "t": 179.29,
+        "text": "Babão prêmios"
+      },
+      {
+        "t": 180.45,
+        "text": "Flavinho prêmios"
+      },
+      {
+        "t": 181.93,
+        "text": "o meu pouca sombra lancharou"
+      },
+      {
+        "t": 184.99,
+        "text": "Ô, ô, tra, ta, ta"
+      }
+    ]
   },
   {
     "file": "CHT _ HOTEL JB.mp3",

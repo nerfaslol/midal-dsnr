@@ -989,6 +989,36 @@ article.meme p { font-size: 13px; margin: 0; color: var(--fg-dim); line-height: 
   margin: 0 auto;
 }
 
+/* Karaoke mode — linha-a-linha com highlight */
+.lyrics-body.karaoke {
+  white-space: normal;
+  text-align: center;
+  padding: 32px 24px;
+  font-family: 'Bebas Neue', 'Inter', sans-serif;
+  letter-spacing: 0.02em;
+}
+.lyr-line {
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 8px 12px;
+  margin: 2px 0;
+  color: var(--fg-faint);
+  cursor: pointer;
+  transition: color .25s ease, transform .25s ease, opacity .25s ease, text-shadow .25s ease;
+  border-radius: 6px;
+}
+.lyr-line:hover { color: var(--fg-dim); background: var(--bg-3); }
+.lyr-line.active {
+  color: var(--accent);
+  font-size: 24px;
+  transform: scale(1.04);
+  text-shadow: 0 0 18px var(--accent-glow);
+  letter-spacing: 0.04em;
+}
+:root[data-theme="light"] .lyr-line.active {
+  text-shadow: 0 0 12px rgba(184,148,31,.35);
+}
+
 /* ===== STICKY PLAYER ===== */
 .player-bar {
   position: fixed;
